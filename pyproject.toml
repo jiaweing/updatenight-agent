@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "updatenight-agent"
+version = "0.1.0"
+description = "Newsletter automation using crewAI"
+authors = ["Your Name"]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+crewai = "^0.1.24"
+crawl4ai = "^0.1.0"
+pillow = "^10.2.0"
+selenium = "^4.18.1"
+python-dotenv = "^1.0.1"
+langchain = "^0.1.9"
+beautifulsoup4 = "^4.12.3"
+markdown = "^3.5.2"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
