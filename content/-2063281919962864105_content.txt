@@ -1,5 +1,0 @@
-URL: https://mistral.ai/en/news/mistral-ocr
-Title: Mistral Ocr
---------------------------------------------------
-
-## Application error: a client-side exception has occurred (see the browser console for more information).

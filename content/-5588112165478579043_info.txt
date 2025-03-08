@@ -1,7 +1,0 @@
-Scraping Result Info:
-URL: https://github.com/cline/cline/releases
-Title: Releases
-Title from link: Releases
-Screenshot Path: content\-5588112165478579043.png
-Content Path: content\-5588112165478579043_content.txt
-Success: True

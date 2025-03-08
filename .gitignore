@@ -26,6 +26,8 @@ wheels/
 *.egg
 
 # Output and Generated files
+content/
+*.png
 output/
 *.png
 *.jpg
