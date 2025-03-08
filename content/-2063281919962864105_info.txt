@@ -1,0 +1,7 @@
+Scraping Result Info:
+URL: https://mistral.ai/en/news/mistral-ocr
+Title: Mistral Ocr
+Title from link: Mistral Ocr
+Screenshot Path: content\-2063281919962864105.png
+Content Path: content\-2063281919962864105_content.txt
+Success: True

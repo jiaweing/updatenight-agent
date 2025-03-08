@@ -3,7 +3,11 @@ from typing import List
 import markdown
 import os
 from bs4 import BeautifulSoup
-from urllib.parse import urljoin
+from src.utils.logging_config import setup_logging, get_logger
+
+# Setup logging
+setup_logging()
+logger = get_logger('LinkCollector')
 
 class LinkCollectorAgent:
     def __init__(self):
@@ -45,12 +49,27 @@ class LinkCollectorAgent:
                 url = link.get('href', '')
                 title = link.get_text()
                 # Get text after the link in the list item
-                context = list_item.get_text().split(title)[-1].strip('- ')
+                context = ""
+                if title:  # Only try to split if title is not empty
+                    list_text = list_item.get_text()
+                    try:
+                        context = list_text.split(title)[-1].strip('- ')
+                    except:
+                        context = list_text.strip('- ')
                 
-                links.append({
+                link_data = {
                     'url': url,
                     'title': title,
                     'context': context
-                })
+                }
+                links.append(link_data)
         
+        # Log extracted links
+        logger.info(f"\n🔍 Extracted {len(links)} links from {file_path}:")
+        for idx, link in enumerate(links, 1):
+            logger.info(f"\n📌 Link #{idx}")
+            logger.info(f"  • URL: {link['url']}")
+            logger.debug(f"  • Title: {link['title']}")
+            logger.debug(f"  • Context: {link['context']}")
+                
         return links

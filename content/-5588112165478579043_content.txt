@@ -1,0 +1,506 @@
+URL: https://github.com/cline/cline/releases
+Title: Releases
+--------------------------------------------------
+
+[Skip to content](https://github.com/cline/cline/releases#start-of-content)
+## Navigation Menu
+Toggle navigation
+[ ](https://github.com/)
+[ Sign in ](https://github.com/login?return_to=https%3A%2F%2Fgithub.com%2Fcline%2Fcline%2Freleases)
+  * Product 
+    * [ GitHub Copilot Write better code with AI  ](https://github.com/features/copilot)
+    * [ Security Find and fix vulnerabilities  ](https://github.com/features/security)
+    * [ Actions Automate any workflow  ](https://github.com/features/actions)
+    * [ Codespaces Instant dev environments  ](https://github.com/features/codespaces)
+    * [ Issues Plan and track work  ](https://github.com/features/issues)
+    * [ Code Review Manage code changes  ](https://github.com/features/code-review)
+    * [ Discussions Collaborate outside of code  ](https://github.com/features/discussions)
+    * [ Code Search Find more, search less  ](https://github.com/features/code-search)
+Explore
+    * [ All features ](https://github.com/features)
+    * [ Documentation ](https://docs.github.com)
+    * [ GitHub Skills ](https://skills.github.com)
+    * [ Blog ](https://github.blog)
+  * Solutions 
+By company size
+    * [ Enterprises ](https://github.com/enterprise)
+    * [ Small and medium teams ](https://github.com/team)
+    * [ Startups ](https://github.com/enterprise/startups)
+    * [ Nonprofits ](https://github.com/solutions/industry/nonprofits)
+By use case
+    * [ DevSecOps ](https://github.com/solutions/use-case/devsecops)
+    * [ DevOps ](https://github.com/solutions/use-case/devops)
+    * [ CI/CD ](https://github.com/solutions/use-case/ci-cd)
+    * [ View all use cases ](https://github.com/solutions/use-case)
+By industry
+    * [ Healthcare ](https://github.com/solutions/industry/healthcare)
+    * [ Financial services ](https://github.com/solutions/industry/financial-services)
+    * [ Manufacturing ](https://github.com/solutions/industry/manufacturing)
+    * [ Government ](https://github.com/solutions/industry/government)
+    * [ View all industries ](https://github.com/solutions/industry)
+[ View all solutions ](https://github.com/solutions)
+  * Resources 
+Topics
+    * [ AI ](https://github.com/resources/articles/ai)
+    * [ DevOps ](https://github.com/resources/articles/devops)
+    * [ Security ](https://github.com/resources/articles/security)
+    * [ Software Development ](https://github.com/resources/articles/software-development)
+    * [ View all ](https://github.com/resources/articles)
+Explore
+    * [ Learning Pathways ](https://resources.github.com/learn/pathways)
+    * [ Events & Webinars ](https://resources.github.com)
+    * [ Ebooks & Whitepapers ](https://github.com/resources/whitepapers)
+    * [ Customer Stories ](https://github.com/customer-stories)
+    * [ Partners ](https://partner.github.com)
+    * [ Executive Insights ](https://github.com/solutions/executive-insights)
+  * Open Source 
+    * [ GitHub Sponsors Fund open source developers  ](https://github.com/sponsors)
+    * [ The ReadME Project GitHub community articles  ](https://github.com/readme)
+Repositories
+    * [ Topics ](https://github.com/topics)
+    * [ Trending ](https://github.com/trending)
+    * [ Collections ](https://github.com/collections)
+  * Enterprise 
+    * [ Enterprise platform AI-powered developer platform  ](https://github.com/enterprise)
+Available add-ons
+    * [ Advanced Security Enterprise-grade security features  ](https://github.com/enterprise/advanced-security)
+    * [ Copilot for business Enterprise-grade AI features  ](https://github.com/features/copilot/copilot-business)
+    * [ Premium Support Enterprise-grade 24/7 support  ](https://github.com/premium-support)
+  * [Pricing](https://github.com/pricing)
+
+
+Search or jump to...
+# Search code, repositories, users, issues, pull requests...
+Search 
+Clear
+[Search syntax tips](https://docs.github.com/search-github/github-code-search/understanding-github-code-search-syntax)
+#  Provide feedback 
+We read every piece of feedback, and take your input very seriously.
+Include my email address so I can be contacted
+Cancel  Submit feedback 
+#  Saved searches 
+## Use saved searches to filter your results more quickly
+Name
+Query
+To see all available qualifiers, see our [documentation](https://docs.github.com/search-github/github-code-search/understanding-github-code-search-syntax). 
+Cancel  Create saved search 
+[ Sign in ](https://github.com/login?return_to=https%3A%2F%2Fgithub.com%2Fcline%2Fcline%2Freleases)
+[ Sign up ](https://github.com/signup?ref_cta=Sign+up&ref_loc=header+logged+out&ref_page=%2F%3Cuser-name%3E%2F%3Crepo-name%3E%2Freleases%2Findex&source=header-repo&source_repo=cline%2Fcline) Reseting focus
+You signed in with another tab or window. [Reload](https://github.com/cline/cline/releases) to refresh your session. You signed out in another tab or window. [Reload](https://github.com/cline/cline/releases) to refresh your session. You switched accounts on another tab or window. [Reload](https://github.com/cline/cline/releases) to refresh your session. Dismiss alert
+{{ message }}
+[ cline ](https://github.com/cline) / **[cline](https://github.com/cline/cline) ** Public
+  * [ Notifications ](https://github.com/login?return_to=%2Fcline%2Fcline) You must be signed in to change notification settings
+  * [ Fork 3.3k ](https://github.com/login?return_to=%2Fcline%2Fcline)
+  * [ Star  33.5k ](https://github.com/login?return_to=%2Fcline%2Fcline)
+
+
+  * [ Code ](https://github.com/cline/cline)
+  * [ Issues 405 ](https://github.com/cline/cline/issues)
+  * [ Pull requests 40 ](https://github.com/cline/cline/pulls)
+  * [ Discussions ](https://github.com/cline/cline/discussions)
+  * [ Actions ](https://github.com/cline/cline/actions)
+  * [ Projects 0 ](https://github.com/cline/cline/projects)
+  * [ Wiki ](https://github.com/cline/cline/wiki)
+  * [ Security ](https://github.com/cline/cline/security)
+  * [ Insights ](https://github.com/cline/cline/pulse)
+
+
+Additional navigation options
+  * [ Code  ](https://github.com/cline/cline)
+  * [ Issues  ](https://github.com/cline/cline/issues)
+  * [ Pull requests  ](https://github.com/cline/cline/pulls)
+  * [ Discussions  ](https://github.com/cline/cline/discussions)
+  * [ Actions  ](https://github.com/cline/cline/actions)
+  * [ Projects  ](https://github.com/cline/cline/projects)
+  * [ Wiki  ](https://github.com/cline/cline/wiki)
+  * [ Security  ](https://github.com/cline/cline/security)
+  * [ Insights  ](https://github.com/cline/cline/pulse)
+
+
+# Releases: cline/cline
+[Releases](https://github.com/cline/cline/releases) [Tags](https://github.com/cline/cline/tags)
+Releases · cline/cline
+## v3.6.0
+06 Mar 23:43 
+![@saoudrizwan](https://avatars.githubusercontent.com/u/7799382?s=40&v=4) [saoudrizwan](https://github.com/saoudrizwan)
+[ v3.6.0  ](https://github.com/cline/cline/tree/v3.6.0)
+[ `55e0586`](https://github.com/cline/cline/commit/55e0586d95ade82c43884d1b774371aeffbbfcf0)
+Compare
+Choose a tag to compare
+Could not load tags
+Nothing to show
+[ {{ refName }} default ](https://github.com/cline/cline/compare/{{ urlEncodedRefName }}...v3.6.0)
+Loading
+[View all tags](https://github.com/cline/cline/tags)
+[v3.6.0](https://github.com/cline/cline/releases/tag/v3.6.0) [Latest](https://github.com/cline/cline/releases/latest)
+[Latest](https://github.com/cline/cline/releases/latest)
+  * Add Cline API as a provider option, allowing new users to sign up and get started with Cline for free
+  * Optimize checkpoints with branch-per-task strategy, reducing storage required and first task load times
+  * Fix problem with Plan/Act toggle keyboard shortcut not working in Windows (thanks [@yt3trees](https://github.com/yt3trees)!)
+  * Add new Gemini models to GCP Vertex (thanks [@shohei-ihaya](https://github.com/shohei-ihaya)!) and Claude models AskSage (thanks [@swhite24](https://github.com/swhite24)!)
+  * Improve OpenRouter/Cline error reporting
+
+
+### Contributors
+  * [ ![@swhite24](https://avatars.githubusercontent.com/u/1410731?s=64&v=4) ](https://github.com/swhite24)
+  * [ ![@shohei-ihaya](https://avatars.githubusercontent.com/u/25131938?s=64&v=4) ](https://github.com/shohei-ihaya)
+  * [ ![@yt3trees](https://avatars.githubusercontent.com/u/57471763?s=64&v=4) ](https://github.com/yt3trees)
+
+
+swhite24, shohei-ihaya, and yt3trees 
+Assets 2
+  * [ Source code (zip) ](https://github.com/cline/cline/archive/refs/tags/v3.6.0.zip)
+2025-03-06T23:26:48Z
+  * [ Source code (tar.gz) ](https://github.com/cline/cline/archive/refs/tags/v3.6.0.tar.gz)
+2025-03-06T23:26:48Z
+
+
+❤️ 7 adepanges, amsofttech, xavimc222, Vynny, GuiSchet, lin72h, and danielgospodinow reacted with heart emoji 🚀 12 matfat55, MyWay, zachatrocity, bibbychan, mattsta, mastermind88, yFork, gudarzi, Vynny, atom2ueki, and 2 more reacted with rocket emoji
+All reactions
+  * ❤️ 7 reactions
+  * 🚀 12 reactions
+
+
+16 people reacted
+## v3.5.1
+03 Mar 01:26 
+![@saoudrizwan](https://avatars.githubusercontent.com/u/7799382?s=40&v=4) [saoudrizwan](https://github.com/saoudrizwan)
+[ v3.5.1  ](https://github.com/cline/cline/tree/v3.5.1)
+[ `9221837`](https://github.com/cline/cline/commit/922183793f46f0d1f0685ce9f857653273b7308b)
+Compare
+Choose a tag to compare
+Could not load tags
+Nothing to show
+[ {{ refName }} default ](https://github.com/cline/cline/compare/{{ urlEncodedRefName }}...v3.5.1)
+Loading
+[View all tags](https://github.com/cline/cline/tags)
+[v3.5.1](https://github.com/cline/cline/releases/tag/v3.5.1)
+  * Add timeout option to MCP servers
+  * Add Gemini Flash models to Vertex provider (thanks [@jpaodev](https://github.com/jpaodev)!)
+  * Add prompt caching support for AWS Bedrock provider (thanks [@buger](https://github.com/buger)!)
+  * Add AskSage provider (thanks [@swhite24](https://github.com/swhite24)!)
+
+
+### Contributors
+  * [ ![@buger](https://avatars.githubusercontent.com/u/14009?s=64&v=4) ](https://github.com/buger)
+  * [ ![@swhite24](https://avatars.githubusercontent.com/u/1410731?s=64&v=4) ](https://github.com/swhite24)
+  * [ ![@jpaodev](https://avatars.githubusercontent.com/u/87486727?s=64&v=4) ](https://github.com/jpaodev)
+
+
+buger, swhite24, and jpaodev 
+Assets 2
+Loading
+👍 3 ErcinDedeoglu, sedflix, and andreylysenko reacted with thumbs up emoji 🎉 7 fschaupp, JinMaa, gh640, estevaom, ErcinDedeoglu, sedflix, and andreylysenko reacted with hooray emoji 🚀 5 ErcinDedeoglu, steve02081504, sedflix, andreylysenko, and chezsmithy reacted with rocket emoji 👀 6 mattsta, MyWay, kforkkk, xavimc222, sedflix, and andreylysenko reacted with eyes emoji
+All reactions
+  * 👍 3 reactions
+  * 🎉 7 reactions
+  * 🚀 5 reactions
+  * 👀 6 reactions
+
+
+13 people reacted
+## v3.5.0
+01 Mar 12:37 
+![@saoudrizwan](https://avatars.githubusercontent.com/u/7799382?s=40&v=4) [saoudrizwan](https://github.com/saoudrizwan)
+[ v3.5.0  ](https://github.com/cline/cline/tree/v3.5.0)
+[ `f8796ce`](https://github.com/cline/cline/commit/f8796ce69a7b944fc4f8373435384e5d9f4a9887)
+Compare
+Choose a tag to compare
+Could not load tags
+Nothing to show
+[ {{ refName }} default ](https://github.com/cline/cline/compare/{{ urlEncodedRefName }}...v3.5.0)
+Loading
+[View all tags](https://github.com/cline/cline/tags)
+[v3.5.0](https://github.com/cline/cline/releases/tag/v3.5.0)
+  * Add 'Enable extended thinking' option for Claude 3.7 Sonnet, with ability to set different budgets for Plan and Act modes
+  * Add support for rich MCP responses with automatic image previews, website thumbnails, and WolframAlpha visualizations
+  * Add language preference option in Advanced Settings
+  * Add xAI Provider Integration with support for all Grok models (thanks [@andrewmonostate](https://github.com/andrewmonostate)!)
+  * Fix issue with Linux XDG pointing to incorrect path for Document folder (thanks [@jonatkinson](https://github.com/jonatkinson)!)
+
+
+### Contributors
+  * [ ![@jonatkinson](https://avatars.githubusercontent.com/u/53748?s=64&v=4) ](https://github.com/jonatkinson)
+  * [ ![@andrewmonostate](https://avatars.githubusercontent.com/u/165841485?s=64&v=4) ](https://github.com/andrewmonostate)
+
+
+jonatkinson and andrewmonostate 
+Assets 2
+Loading
+👍 4 ErcinDedeoglu, ctwhome, niebloomj, and danvoronov reacted with thumbs up emoji 🎉 22 fschaupp, MyWay, Brensom, xavimc222, RajaSunrise, matteo-pacini, mattlehrer, jeebuscrossaint, icereed, zachatrocity, and 12 more reacted with hooray emoji ❤️ 3 jackboyla, xavimc222, and kforkkk reacted with heart emoji 🚀 11 ramo-dev, RajaSunrise, Salancelot, shaadcode, Jackpkn, mattsta, zachatrocity, ErcinDedeoglu, kenjihikmatullah, jackboyla, and kforkkk reacted with rocket emoji
+All reactions
+  * 👍 4 reactions
+  * 🎉 22 reactions
+  * ❤️ 3 reactions
+  * 🚀 11 reactions
+
+
+29 people reacted
+## v3.4.0
+19 Feb 17:41 
+![@saoudrizwan](https://avatars.githubusercontent.com/u/7799382?s=40&v=4) [saoudrizwan](https://github.com/saoudrizwan)
+[ v3.4.0  ](https://github.com/cline/cline/tree/v3.4.0)
+[ `d721275`](https://github.com/cline/cline/commit/d72127550d74982935305af0c642498fa4abfa00)
+Compare
+Choose a tag to compare
+Could not load tags
+Nothing to show
+[ {{ refName }} default ](https://github.com/cline/cline/compare/{{ urlEncodedRefName }}...v3.4.0)
+Loading
+[View all tags](https://github.com/cline/cline/tags)
+[v3.4.0](https://github.com/cline/cline/releases/tag/v3.4.0)
+  * Introducing **MCP Marketplace**! You can now discover and install the best MCP servers right from within the extension, with new servers added regularly by the Cline team
+
+
+[![image](https://private-user-images.githubusercontent.com/7799382/414837326-b323dc40-2835-4e1a-9139-73781a8fd14b.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NDE0NDQyOTksIm5iZiI6MTc0MTQ0Mzk5OSwicGF0aCI6Ii83Nzk5MzgyLzQxNDgzNzMyNi1iMzIzZGM0MC0yODM1LTRlMWEtOTEzOS03Mzc4MWE4ZmQxNGIucG5nP1gtQW16LUFsZ29yaXRobT1BV1M0LUhNQUMtU0hBMjU2JlgtQW16LUNyZWRlbnRpYWw9QUtJQVZDT0RZTFNBNTNQUUs0WkElMkYyMDI1MDMwOCUyRnVzLWVhc3QtMSUyRnMzJTJGYXdzNF9yZXF1ZXN0JlgtQW16LURhdGU9MjAyNTAzMDhUMTQyNjM5WiZYLUFtei1FeHBpcmVzPTMwMCZYLUFtei1TaWduYXR1cmU9MjM4ODc2NmQyZTE2MWIxMWQ0N2ExM2UxNGI2ODIwZWQxODJmMWZiNTEyZDljODc5YjNjOTRiNjg5MmJiM2Y5YiZYLUFtei1TaWduZWRIZWFkZXJzPWhvc3QifQ.gkL_bN0ajUgtCR8T7IEg3SAAhffYoC3wJKsHvfXJiRo)](https://private-user-images.githubusercontent.com/7799382/414837326-b323dc40-2835-4e1a-9139-73781a8fd14b.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NDE0NDQyOTksIm5iZiI6MTc0MTQ0Mzk5OSwicGF0aCI6Ii83Nzk5MzgyLzQxNDgzNzMyNi1iMzIzZGM0MC0yODM1LTRlMWEtOTEzOS03Mzc4MWE4ZmQxNGIucG5nP1gtQW16LUFsZ29yaXRobT1BV1M0LUhNQUMtU0hBMjU2JlgtQW16LUNyZWRlbnRpYWw9QUtJQVZDT0RZTFNBNTNQUUs0WkElMkYyMDI1MDMwOCUyRnVzLWVhc3QtMSUyRnMzJTJGYXdzNF9yZXF1ZXN0JlgtQW16LURhdGU9MjAyNTAzMDhUMTQyNjM5WiZYLUFtei1FeHBpcmVzPTMwMCZYLUFtei1TaWduYXR1cmU9MjM4ODc2NmQyZTE2MWIxMWQ0N2ExM2UxNGI2ODIwZWQxODJmMWZiNTEyZDljODc5YjNjOTRiNjg5MmJiM2Y5YiZYLUFtei1TaWduZWRIZWFkZXJzPWhvc3QifQ.gkL_bN0ajUgtCR8T7IEg3SAAhffYoC3wJKsHvfXJiRo)
+  * Add **mermaid diagram** support in Plan mode! You can now see flowcharts, maps, sequence diagrams, and more right in chat -> click on them to see an expanded view (thanks [@celestial-vault](https://github.com/celestial-vault)!)
+
+
+[![image](https://private-user-images.githubusercontent.com/7799382/414837916-44608656-351a-44e3-bcba-90335a2fa418.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NDE0NDQyOTksIm5iZiI6MTc0MTQ0Mzk5OSwicGF0aCI6Ii83Nzk5MzgyLzQxNDgzNzkxNi00NDYwODY1Ni0zNTFhLTQ0ZTMtYmNiYS05MDMzNWEyZmE0MTgucG5nP1gtQW16LUFsZ29yaXRobT1BV1M0LUhNQUMtU0hBMjU2JlgtQW16LUNyZWRlbnRpYWw9QUtJQVZDT0RZTFNBNTNQUUs0WkElMkYyMDI1MDMwOCUyRnVzLWVhc3QtMSUyRnMzJTJGYXdzNF9yZXF1ZXN0JlgtQW16LURhdGU9MjAyNTAzMDhUMTQyNjM5WiZYLUFtei1FeHBpcmVzPTMwMCZYLUFtei1TaWduYXR1cmU9YmI3ZDAzOTNiNzBlMjA0YTMzNDgwYTBmMTFlYmRiMDcyM2VlYTQxMTliYzg2MTdiZDU0ZTcxZWU0Y2U1MGY4NyZYLUFtei1TaWduZWRIZWFkZXJzPWhvc3QifQ.6fvB23na_SQOkRNtX0VBvc2nkoDu9a2ZCV-Kzn9ucxs)](https://private-user-images.githubusercontent.com/7799382/414837916-44608656-351a-44e3-bcba-90335a2fa418.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NDE0NDQyOTksIm5iZiI6MTc0MTQ0Mzk5OSwicGF0aCI6Ii83Nzk5MzgyLzQxNDgzNzkxNi00NDYwODY1Ni0zNTFhLTQ0ZTMtYmNiYS05MDMzNWEyZmE0MTgucG5nP1gtQW16LUFsZ29yaXRobT1BV1M0LUhNQUMtU0hBMjU2JlgtQW16LUNyZWRlbnRpYWw9QUtJQVZDT0RZTFNBNTNQUUs0WkElMkYyMDI1MDMwOCUyRnVzLWVhc3QtMSUyRnMzJTJGYXdzNF9yZXF1ZXN0JlgtQW16LURhdGU9MjAyNTAzMDhUMTQyNjM5WiZYLUFtei1FeHBpcmVzPTMwMCZYLUFtei1TaWduYXR1cmU9YmI3ZDAzOTNiNzBlMjA0YTMzNDgwYTBmMTFlYmRiMDcyM2VlYTQxMTliYzg2MTdiZDU0ZTcxZWU0Y2U1MGY4NyZYLUFtei1TaWduZWRIZWFkZXJzPWhvc3QifQ.6fvB23na_SQOkRNtX0VBvc2nkoDu9a2ZCV-Kzn9ucxs)
+  * New `@git` to reference the current working changes or specific commits (thanks [@mrubens](https://github.com/mrubens)!), and `@terminal` mention to reference the active terminal’s contents
+
+
+[![image](https://private-user-images.githubusercontent.com/7799382/414836757-a2e82af3-f1ac-4b9e-9368-e8994d10de42.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NDE0NDQyOTksIm5iZiI6MTc0MTQ0Mzk5OSwicGF0aCI6Ii83Nzk5MzgyLzQxNDgzNjc1Ny1hMmU4MmFmMy1mMWFjLTRiOWUtOTM2OC1lODk5NGQxMGRlNDIucG5nP1gtQW16LUFsZ29yaXRobT1BV1M0LUhNQUMtU0hBMjU2JlgtQW16LUNyZWRlbnRpYWw9QUtJQVZDT0RZTFNBNTNQUUs0WkElMkYyMDI1MDMwOCUyRnVzLWVhc3QtMSUyRnMzJTJGYXdzNF9yZXF1ZXN0JlgtQW16LURhdGU9MjAyNTAzMDhUMTQyNjM5WiZYLUFtei1FeHBpcmVzPTMwMCZYLUFtei1TaWduYXR1cmU9ZjAxNjc3OTUwMzc3N2FjODUzMmMxNTU4MjA5MTcyYmVmNGZhYjk5NmZhYzk5ZDFiZDZmZDBlMjgwZjU4NDViNCZYLUFtei1TaWduZWRIZWFkZXJzPWhvc3QifQ.4Yhg31G_Xkgr8HRDYB_Zlmx7g73cXnvTqVb7QbzMQTY)](https://private-user-images.githubusercontent.com/7799382/414836757-a2e82af3-f1ac-4b9e-9368-e8994d10de42.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NDE0NDQyOTksIm5iZiI6MTc0MTQ0Mzk5OSwicGF0aCI6Ii83Nzk5MzgyLzQxNDgzNjc1Ny1hMmU4MmFmMy1mMWFjLTRiOWUtOTM2OC1lODk5NGQxMGRlNDIucG5nP1gtQW16LUFsZ29yaXRobT1BV1M0LUhNQUMtU0hBMjU2JlgtQW16LUNyZWRlbnRpYWw9QUtJQVZDT0RZTFNBNTNQUUs0WkElMkYyMDI1MDMwOCUyRnVzLWVhc3QtMSUyRnMzJTJGYXdzNF9yZXF1ZXN0JlgtQW16LURhdGU9MjAyNTAzMDhUMTQyNjM5WiZYLUFtei1FeHBpcmVzPTMwMCZYLUFtei1TaWduYXR1cmU9ZjAxNjc3OTUwMzc3N2FjODUzMmMxNTU4MjA5MTcyYmVmNGZhYjk5NmZhYzk5ZDFiZDZmZDBlMjgwZjU4NDViNCZYLUFtei1TaWduZWRIZWFkZXJzPWhvc3QifQ.4Yhg31G_Xkgr8HRDYB_Zlmx7g73cXnvTqVb7QbzMQTY)
+  * New checkpoints UX to easily see when checkpoints are created
+  * Send a message when hitting Approve, or when toggling from Plan to Act mode (thanks [@dcbartlett](https://github.com/dcbartlett)!)
+  * New advanced setting to disable the browser tool, improved support for AWS Bedrock profiles (thanks [@chezsmithy](https://github.com/chezsmithy)!), ability to set custom model configuration for Open AI compatible (context window, max output, price, etc), and fixed Mistral provider issues
+
+
+See a demo of the new MCP Marketplace and mermaid diagrams here! <https://x.com/sdrzn/status/1892262424881090721>
+### Contributors
+  * [ ![@mrubens](https://avatars.githubusercontent.com/u/2600?s=64&v=4) ](https://github.com/mrubens)
+  * [ ![@dcbartlett](https://avatars.githubusercontent.com/u/1077050?s=64&v=4) ](https://github.com/dcbartlett)
+  * [ ![@chezsmithy](https://avatars.githubusercontent.com/u/5754300?s=64&v=4) ](https://github.com/chezsmithy)
+  * [ ![@celestial-vault](https://avatars.githubusercontent.com/u/58194240?s=64&v=4) ](https://github.com/celestial-vault)
+
+
+mrubens, dcbartlett, and 2 other contributors 
+Assets 2
+Loading
+🎉 2 fschaupp and andrewzolotukhin reacted with hooray emoji ❤️ 35 Syst3m1cAn0maly, MattMakes, dnoggle, ShlomoCode, mattsta, steve02081504, trvon, hllywluis, alioshr, gh640, and 25 more reacted with heart emoji 🚀 2 aamargant and tomatyss reacted with rocket emoji
+All reactions
+  * 🎉 2 reactions
+  * ❤️ 35 reactions
+  * 🚀 2 reactions
+
+
+39 people reacted
+## v3.3.0
+09 Feb 01:48 
+![@saoudrizwan](https://avatars.githubusercontent.com/u/7799382?s=40&v=4) [saoudrizwan](https://github.com/saoudrizwan)
+[ v3.3.0  ](https://github.com/cline/cline/tree/v3.3.0)
+[ `02e45fe`](https://github.com/cline/cline/commit/02e45fed534ae14cc35755692b3bf13741305d4d)
+Compare
+Choose a tag to compare
+Could not load tags
+Nothing to show
+[ {{ refName }} default ](https://github.com/cline/cline/compare/{{ urlEncodedRefName }}...v3.3.0)
+Loading
+[View all tags](https://github.com/cline/cline/tags)
+[v3.3.0](https://github.com/cline/cline/releases/tag/v3.3.0)
+  * You can now create a `.clineignore` file to block Cline from accessing specified file patterns. Especially useful when using auto-approve in a project with sensitive files!
+  * Adds keyboard shortcut (CMD + Shift + A) to easily switch between Plan/Act mode
+  * Fixes the infamously annoying bug where new files wouldn't show up in textfield files dropdown list!
+  * Adds automatic intelligent retry for rate limited requests (thanks [@ViezeVingertjes](https://github.com/ViezeVingertjes) )
+  * Adds support for AWS Bedrock profiles + Requesty, Together, Alibaba Qwen providers
+
+
+[![Cursor 2025-02-08 17 25 41](https://private-user-images.githubusercontent.com/7799382/411278797-0c5b601c-ea7a-4a5b-b90e-b149ee460419.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NDE0NDQyOTksIm5iZiI6MTc0MTQ0Mzk5OSwicGF0aCI6Ii83Nzk5MzgyLzQxMTI3ODc5Ny0wYzViNjAxYy1lYTdhLTRhNWItYjkwZS1iMTQ5ZWU0NjA0MTkucG5nP1gtQW16LUFsZ29yaXRobT1BV1M0LUhNQUMtU0hBMjU2JlgtQW16LUNyZWRlbnRpYWw9QUtJQVZDT0RZTFNBNTNQUUs0WkElMkYyMDI1MDMwOCUyRnVzLWVhc3QtMSUyRnMzJTJGYXdzNF9yZXF1ZXN0JlgtQW16LURhdGU9MjAyNTAzMDhUMTQyNjM5WiZYLUFtei1FeHBpcmVzPTMwMCZYLUFtei1TaWduYXR1cmU9YzcyZjE5YWFlM2RiOTcyNzI0YWJiM2U0NjJjMTRmMzA0YzU1ODFhMTM3OWI0ODBiMTJlMzg1M2ExM2Y5MzgyYiZYLUFtei1TaWduZWRIZWFkZXJzPWhvc3QifQ.hWYeAQGugEiWOvqCOPgaN4pwTYvzIf9HLraB8ugsXAA)](https://private-user-images.githubusercontent.com/7799382/411278797-0c5b601c-ea7a-4a5b-b90e-b149ee460419.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NDE0NDQyOTksIm5iZiI6MTc0MTQ0Mzk5OSwicGF0aCI6Ii83Nzk5MzgyLzQxMTI3ODc5Ny0wYzViNjAxYy1lYTdhLTRhNWItYjkwZS1iMTQ5ZWU0NjA0MTkucG5nP1gtQW16LUFsZ29yaXRobT1BV1M0LUhNQUMtU0hBMjU2JlgtQW16LUNyZWRlbnRpYWw9QUtJQVZDT0RZTFNBNTNQUUs0WkElMkYyMDI1MDMwOCUyRnVzLWVhc3QtMSUyRnMzJTJGYXdzNF9yZXF1ZXN0JlgtQW16LURhdGU9MjAyNTAzMDhUMTQyNjM5WiZYLUFtei1FeHBpcmVzPTMwMCZYLUFtei1TaWduYXR1cmU9YzcyZjE5YWFlM2RiOTcyNzI0YWJiM2U0NjJjMTRmMzA0YzU1ODFhMTM3OWI0ODBiMTJlMzg1M2ExM2Y5MzgyYiZYLUFtei1TaWduZWRIZWFkZXJzPWhvc3QifQ.hWYeAQGugEiWOvqCOPgaN4pwTYvzIf9HLraB8ugsXAA)
+### Contributors
+  * [ ![@ViezeVingertjes](https://avatars.githubusercontent.com/u/10432760?s=64&v=4) ](https://github.com/ViezeVingertjes)
+
+
+ViezeVingertjes 
+Assets 2
+Loading
+👍 34 MyWay, gitatmax, ZappyMonster, siemensx, gh640, kenjihikmatullah, xiaguan, narithtyty, russeree, horatjp, and 24 more reacted with thumbs up emoji 🎉 6 Prasannajaga, mattsta, mystique09, StephenBrough, TheRealMaN, and Felitendo reacted with hooray emoji ❤️ 1 ahmed-dev-mods reacted with heart emoji
+All reactions
+  * 👍 34 reactions
+  * 🎉 6 reactions
+  * ❤️ 1 reaction
+
+
+38 people reacted
+## v3.2.9
+31 Jan 03:01 
+![@github-actions](https://avatars.githubusercontent.com/in/15368?s=40&v=4) [github-actions](https://github.com/apps/github-actions)
+[ v3.2.9  ](https://github.com/cline/cline/tree/v3.2.9)
+[ `3b5d39a`](https://github.com/cline/cline/commit/3b5d39a21bb64918367e076d309b31c02cf124b6)
+Compare
+Choose a tag to compare
+Could not load tags
+Nothing to show
+[ {{ refName }} default ](https://github.com/cline/cline/compare/{{ urlEncodedRefName }}...v3.2.9)
+Loading
+[View all tags](https://github.com/cline/cline/tags)
+[v3.2.9](https://github.com/cline/cline/releases/tag/v3.2.9)
+**Full Changelog** : [`v3.2.8...v3.2.9`](https://github.com/cline/cline/compare/v3.2.8...v3.2.9)
+Assets 3
+Loading
+👍 9 AhmedProab, mdp, ProfessorEala, Prasannajaga, asbis, firengate, BluerAngala, wj-spec, and nowang6 reacted with thumbs up emoji 🎉 3 firengate, fschaupp, and iguanasoft reacted with hooray emoji ❤️ 3 firengate, xavimc222, and iguanasoft reacted with heart emoji 🚀 9 gh640, cv0x, ibra-coding, mattsta, asbis, firengate, piyushchauhan2011, NotFake404, and iguanasoft reacted with rocket emoji
+All reactions
+  * 👍 9 reactions
+  * 🎉 3 reactions
+  * ❤️ 3 reactions
+  * 🚀 9 reactions
+
+
+18 people reacted
+## v3.2.6
+30 Jan 00:59 
+![@saoudrizwan](https://avatars.githubusercontent.com/u/7799382?s=40&v=4) [saoudrizwan](https://github.com/saoudrizwan)
+[ v3.2.6  ](https://github.com/cline/cline/tree/v3.2.6)
+[ `1ae1d04`](https://github.com/cline/cline/commit/1ae1d047cb931a72c6ba0ff1b2ccc72edf1ec03e)
+Compare
+Choose a tag to compare
+Could not load tags
+Nothing to show
+[ {{ refName }} default ](https://github.com/cline/cline/compare/{{ urlEncodedRefName }}...v3.2.6)
+Loading
+[View all tags](https://github.com/cline/cline/tags)
+[v3.2.6](https://github.com/cline/cline/releases/tag/v3.2.6)
+  * Save last used API/model when switching between Plan and Act, for users that like to use different models for each mode
+  * New Context Window progress bar in the task header to understand increased cost/generation degradation as the context increases, and be aware when the older messages are removed to stay within window
+  * Add Advanced Settings to remove MCP prompts from requests to save tokens, enable/disable checkpoints for users that don't use git (more coming soon!)
+
+
+Assets 2
+Loading
+👍 18 firengate, piyushchauhan2011, MyWay, agnanp, Arche151, gccj, moonwhaler, cv0x, RajaSunrise, vinay0x, and 8 more reacted with thumbs up emoji
+All reactions
+  * 👍 18 reactions
+
+
+18 people reacted
+## v3.2.0
+21 Jan 18:02 
+![@saoudrizwan](https://avatars.githubusercontent.com/u/7799382?s=40&v=4) [saoudrizwan](https://github.com/saoudrizwan)
+[ v3.2.0  ](https://github.com/cline/cline/tree/v3.2.0)
+[ `3f35aab`](https://github.com/cline/cline/commit/3f35aabbf9377f451b712ffb5eb6470b899b1b48)
+Compare
+Choose a tag to compare
+Could not load tags
+Nothing to show
+[ {{ refName }} default ](https://github.com/cline/cline/compare/{{ urlEncodedRefName }}...v3.2.0)
+Loading
+[View all tags](https://github.com/cline/cline/tags)
+[v3.2.0](https://github.com/cline/cline/releases/tag/v3.2.0)
+  * **New Plan/Act mode toggle!** Plan mode turns Cline into an architect that gathers information, asks clarifying questions, and designs a solution. Switch back to Act mode to let him execute the plan! See a demo here: <https://x.com/sdrzn/status/1881761978986934582>
+
+
+[![Notion 2025-01-21 10 00 12](https://private-user-images.githubusercontent.com/7799382/405336045-362e231f-d956-4380-b7a2-2974abeef7a4.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NDE0NDQyOTksIm5iZiI6MTc0MTQ0Mzk5OSwicGF0aCI6Ii83Nzk5MzgyLzQwNTMzNjA0NS0zNjJlMjMxZi1kOTU2LTQzODAtYjdhMi0yOTc0YWJlZWY3YTQucG5nP1gtQW16LUFsZ29yaXRobT1BV1M0LUhNQUMtU0hBMjU2JlgtQW16LUNyZWRlbnRpYWw9QUtJQVZDT0RZTFNBNTNQUUs0WkElMkYyMDI1MDMwOCUyRnVzLWVhc3QtMSUyRnMzJTJGYXdzNF9yZXF1ZXN0JlgtQW16LURhdGU9MjAyNTAzMDhUMTQyNjM5WiZYLUFtei1FeHBpcmVzPTMwMCZYLUFtei1TaWduYXR1cmU9MmMyNjdjN2EzMzE2NzE1MjIzYmVlN2UzY2UzMzQ5NDM3ZTUzODg0MDNlNDhhZDU0YWI0OGE1MTBlZDFmMDg5ZCZYLUFtei1TaWduZWRIZWFkZXJzPWhvc3QifQ.yPDP45Prq5WpAP22yti-5_8cOj7a_VqMmXIxPlVh6rs)](https://private-user-images.githubusercontent.com/7799382/405336045-362e231f-d956-4380-b7a2-2974abeef7a4.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NDE0NDQyOTksIm5iZiI6MTc0MTQ0Mzk5OSwicGF0aCI6Ii83Nzk5MzgyLzQwNTMzNjA0NS0zNjJlMjMxZi1kOTU2LTQzODAtYjdhMi0yOTc0YWJlZWY3YTQucG5nP1gtQW16LUFsZ29yaXRobT1BV1M0LUhNQUMtU0hBMjU2JlgtQW16LUNyZWRlbnRpYWw9QUtJQVZDT0RZTFNBNTNQUUs0WkElMkYyMDI1MDMwOCUyRnVzLWVhc3QtMSUyRnMzJTJGYXdzNF9yZXF1ZXN0JlgtQW16LURhdGU9MjAyNTAzMDhUMTQyNjM5WiZYLUFtei1FeHBpcmVzPTMwMCZYLUFtei1TaWduYXR1cmU9MmMyNjdjN2EzMzE2NzE1MjIzYmVlN2UzY2UzMzQ5NDM3ZTUzODg0MDNlNDhhZDU0YWI0OGE1MTBlZDFmMDg5ZCZYLUFtei1TaWduZWRIZWFkZXJzPWhvc3QifQ.yPDP45Prq5WpAP22yti-5_8cOj7a_VqMmXIxPlVh6rs)
+  * Easily switch between API providers and models using a new popup menu under the chat field
+  * Add VS Code LM API provider to run models provided by other VS Code extensions (e.g. GitHub Copilot). Shoutout to [@julesmons](https://github.com/julesmons) and [@RaySinner](https://github.com/RaySinner) for putting this together!
+  * Add on/off toggle for MCP servers to disable them when not in use, and auto-approve setting for individual tools in MCP servers. Thanks [@mrubens](https://github.com/mrubens)!
+
+
+[![Notion 2025-01-21 10 00 15](https://private-user-images.githubusercontent.com/7799382/405336099-c3e2b74a-c004-4a94-afd5-d9c7728b43aa.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NDE0NDQyOTksIm5iZiI6MTc0MTQ0Mzk5OSwicGF0aCI6Ii83Nzk5MzgyLzQwNTMzNjA5OS1jM2UyYjc0YS1jMDA0LTRhOTQtYWZkNS1kOWM3NzI4YjQzYWEucG5nP1gtQW16LUFsZ29yaXRobT1BV1M0LUhNQUMtU0hBMjU2JlgtQW16LUNyZWRlbnRpYWw9QUtJQVZDT0RZTFNBNTNQUUs0WkElMkYyMDI1MDMwOCUyRnVzLWVhc3QtMSUyRnMzJTJGYXdzNF9yZXF1ZXN0JlgtQW16LURhdGU9MjAyNTAzMDhUMTQyNjM5WiZYLUFtei1FeHBpcmVzPTMwMCZYLUFtei1TaWduYXR1cmU9ZWNjM2RmOTA0ZDU5MDU2OTMzOThjNTI1OTNkNWZhMGQ1ZTJkNjliYTc4NDU1NjUzNDU4N2VmNmRmYjBkZTg3NyZYLUFtei1TaWduZWRIZWFkZXJzPWhvc3QifQ.12lUKOlhJYnr9oK8OIHVo-42RO361zS8VxInidBd1Pc)](https://private-user-images.githubusercontent.com/7799382/405336099-c3e2b74a-c004-4a94-afd5-d9c7728b43aa.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NDE0NDQyOTksIm5iZiI6MTc0MTQ0Mzk5OSwicGF0aCI6Ii83Nzk5MzgyLzQwNTMzNjA5OS1jM2UyYjc0YS1jMDA0LTRhOTQtYWZkNS1kOWM3NzI4YjQzYWEucG5nP1gtQW16LUFsZ29yaXRobT1BV1M0LUhNQUMtU0hBMjU2JlgtQW16LUNyZWRlbnRpYWw9QUtJQVZDT0RZTFNBNTNQUUs0WkElMkYyMDI1MDMwOCUyRnVzLWVhc3QtMSUyRnMzJTJGYXdzNF9yZXF1ZXN0JlgtQW16LURhdGU9MjAyNTAzMDhUMTQyNjM5WiZYLUFtei1FeHBpcmVzPTMwMCZYLUFtei1TaWduYXR1cmU9ZWNjM2RmOTA0ZDU5MDU2OTMzOThjNTI1OTNkNWZhMGQ1ZTJkNjliYTc4NDU1NjUzNDU4N2VmNmRmYjBkZTg3NyZYLUFtei1TaWduZWRIZWFkZXJzPWhvc3QifQ.12lUKOlhJYnr9oK8OIHVo-42RO361zS8VxInidBd1Pc)
+### Contributors
+  * [ ![@mrubens](https://avatars.githubusercontent.com/u/2600?s=64&v=4) ](https://github.com/mrubens)
+  * [ ![@julesmons](https://avatars.githubusercontent.com/u/33626268?s=64&v=4) ](https://github.com/julesmons)
+  * [ ![@RaySinner](https://avatars.githubusercontent.com/u/118297374?s=64&v=4) ](https://github.com/RaySinner)
+
+
+mrubens, julesmons, and RaySinner 
+Assets 2
+Loading
+👍 28 socialwork123, firengate, ErcinDedeoglu, Seeker32, shiyi-jiaqiu, B1X1h, meishijie, JoyousJohn, lucas-deangelis, lonchura, and 18 more reacted with thumbs up emoji 🎉 10 firengate, ErcinDedeoglu, matheushenriquefs, lucas-deangelis, mabras, RajaSunrise, Yemeni, jethrop, vinay0x, and sweber83 reacted with hooray emoji ❤️ 11 firengate, ogabrielluiz, lucas-deangelis, mabras, hardikcc, Yemeni, xavimc222, jorgegarciarey, jethrop, fairy-root, and andreylysenko reacted with heart emoji 🚀 20 Doocter, sebastianjung, punkpeye, mattlehrer, danielsogl, ruthlessgoldie, MarkusHenriks1, danielorozco06, gh640, ksysoev, and 10 more reacted with rocket emoji 👀 2 Yemeni and firengate reacted with eyes emoji
+All reactions
+  * 👍 28 reactions
+  * 🎉 10 reactions
+  * ❤️ 11 reactions
+  * 🚀 20 reactions
+  * 👀 2 reactions
+
+
+48 people reacted
+## v3.1.0
+06 Jan 21:15 
+![@saoudrizwan](https://avatars.githubusercontent.com/u/7799382?s=40&v=4) [saoudrizwan](https://github.com/saoudrizwan)
+[ v3.1.0  ](https://github.com/cline/cline/tree/v3.1.0)
+[ `928ea39`](https://github.com/cline/cline/commit/928ea39faeba431797e1a0cdbfab8def7b979a44)
+Compare
+Choose a tag to compare
+Could not load tags
+Nothing to show
+[ {{ refName }} default ](https://github.com/cline/cline/compare/{{ urlEncodedRefName }}...v3.1.0)
+Loading
+[View all tags](https://github.com/cline/cline/tags)
+[v3.1.0](https://github.com/cline/cline/releases/tag/v3.1.0)
+### Checkpoints: Compare and Restore
+Whenever Cline uses a tool, the extension takes a snapshot of the workspace so you can easily restore back to that point. When you hover over messages, you’ll notice two new buttons:
+  * **Compare** lets you see a diff overview between the snapshot and the current state of your workspace
+  * **Restore** lets you choose one of three options. While you’ll mostly use the ‘Restore Task and Workspace’ option, ‘Restore Task Only’ can be useful for when you need to course correct or undo a problematic tool use, and ‘Restore Workspace Only’ can be useful to checkout different versions of your code without losing Cline’s work.
+
+
+[![image](https://private-user-images.githubusercontent.com/7799382/400554016-760b861c-1503-44bd-b4c8-2b08b16d22c7.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NDE0NDQyOTksIm5iZiI6MTc0MTQ0Mzk5OSwicGF0aCI6Ii83Nzk5MzgyLzQwMDU1NDAxNi03NjBiODYxYy0xNTAzLTQ0YmQtYjRjOC0yYjA4YjE2ZDIyYzcucG5nP1gtQW16LUFsZ29yaXRobT1BV1M0LUhNQUMtU0hBMjU2JlgtQW16LUNyZWRlbnRpYWw9QUtJQVZDT0RZTFNBNTNQUUs0WkElMkYyMDI1MDMwOCUyRnVzLWVhc3QtMSUyRnMzJTJGYXdzNF9yZXF1ZXN0JlgtQW16LURhdGU9MjAyNTAzMDhUMTQyNjM5WiZYLUFtei1FeHBpcmVzPTMwMCZYLUFtei1TaWduYXR1cmU9ZWY4Yjc5ODNjZWM0MDFmNmI5ZWVjM2U5MmNhZWRiMWRlODJkMmVmNzdlN2U0ZGM0MzVkNDVkOTFjM2E4N2FhOSZYLUFtei1TaWduZWRIZWFkZXJzPWhvc3QifQ.d5mz1jg0bxEqLZxEfknvKLLyyQFlHEZZC4-UoY6pYL8)](https://private-user-images.githubusercontent.com/7799382/400554016-760b861c-1503-44bd-b4c8-2b08b16d22c7.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NDE0NDQyOTksIm5iZiI6MTc0MTQ0Mzk5OSwicGF0aCI6Ii83Nzk5MzgyLzQwMDU1NDAxNi03NjBiODYxYy0xNTAzLTQ0YmQtYjRjOC0yYjA4YjE2ZDIyYzcucG5nP1gtQW16LUFsZ29yaXRobT1BV1M0LUhNQUMtU0hBMjU2JlgtQW16LUNyZWRlbnRpYWw9QUtJQVZDT0RZTFNBNTNQUUs0WkElMkYyMDI1MDMwOCUyRnVzLWVhc3QtMSUyRnMzJTJGYXdzNF9yZXF1ZXN0JlgtQW16LURhdGU9MjAyNTAzMDhUMTQyNjM5WiZYLUFtei1FeHBpcmVzPTMwMCZYLUFtei1TaWduYXR1cmU9ZWY4Yjc5ODNjZWM0MDFmNmI5ZWVjM2U5MmNhZWRiMWRlODJkMmVmNzdlN2U0ZGM0MzVkNDVkOTFjM2E4N2FhOSZYLUFtei1TaWduZWRIZWFkZXJzPWhvc3QifQ.d5mz1jg0bxEqLZxEfknvKLLyyQFlHEZZC4-UoY6pYL8)
+### See new changes
+There is now a ‘See new changes’ button when Cline completes a task, giving you an overview of all the changes made to your workspace (since the last 'Task Completed'). This keeps you in the loop with Auto-approve enabled, saving you the trouble of reviewing a task’s message history.
+[![image](https://private-user-images.githubusercontent.com/7799382/400554126-18f96227-aa7e-4623-b579-d7b8ddbc2f9d.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NDE0NDQyOTksIm5iZiI6MTc0MTQ0Mzk5OSwicGF0aCI6Ii83Nzk5MzgyLzQwMDU1NDEyNi0xOGY5NjIyNy1hYTdlLTQ2MjMtYjU3OS1kN2I4ZGRiYzJmOWQucG5nP1gtQW16LUFsZ29yaXRobT1BV1M0LUhNQUMtU0hBMjU2JlgtQW16LUNyZWRlbnRpYWw9QUtJQVZDT0RZTFNBNTNQUUs0WkElMkYyMDI1MDMwOCUyRnVzLWVhc3QtMSUyRnMzJTJGYXdzNF9yZXF1ZXN0JlgtQW16LURhdGU9MjAyNTAzMDhUMTQyNjM5WiZYLUFtei1FeHBpcmVzPTMwMCZYLUFtei1TaWduYXR1cmU9NDc4NTRjM2IyMDBjMDZkMGNjN2RlODg1ZmM0MGQ2ZGZiNzM4M2NjYWJhOTBjZGE2NjNlMWNmMWY0YzFhMWRkMCZYLUFtei1TaWduZWRIZWFkZXJzPWhvc3QifQ.VmgDDBvWuOEDT-iWV8xL_wXBMLxpk7OuLoQwCZA-G-E)](https://private-user-images.githubusercontent.com/7799382/400554126-18f96227-aa7e-4623-b579-d7b8ddbc2f9d.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NDE0NDQyOTksIm5iZiI6MTc0MTQ0Mzk5OSwicGF0aCI6Ii83Nzk5MzgyLzQwMDU1NDEyNi0xOGY5NjIyNy1hYTdlLTQ2MjMtYjU3OS1kN2I4ZGRiYzJmOWQucG5nP1gtQW16LUFsZ29yaXRobT1BV1M0LUhNQUMtU0hBMjU2JlgtQW16LUNyZWRlbnRpYWw9QUtJQVZDT0RZTFNBNTNQUUs0WkElMkYyMDI1MDMwOCUyRnVzLWVhc3QtMSUyRnMzJTJGYXdzNF9yZXF1ZXN0JlgtQW16LURhdGU9MjAyNTAzMDhUMTQyNjM5WiZYLUFtei1FeHBpcmVzPTMwMCZYLUFtei1TaWduYXR1cmU9NDc4NTRjM2IyMDBjMDZkMGNjN2RlODg1ZmM0MGQ2ZGZiNzM4M2NjYWJhOTBjZGE2NjNlMWNmMWY0YzFhMWRkMCZYLUFtei1TaWduZWRIZWFkZXJzPWhvc3QifQ.VmgDDBvWuOEDT-iWV8xL_wXBMLxpk7OuLoQwCZA-G-E)
+### Task Size
+Under the hood, the extension uses git to efficiently track changes, which uses additional disk space when starting new tasks in Cline. Keep track of how much space a task takes with the new delete button, allowing you to manage disk usage easily.
+[![image](https://private-user-images.githubusercontent.com/7799382/400554184-6b6cfcbd-6ab5-41d0-b3ed-ee8ca771418f.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NDE0NDQyOTksIm5iZiI6MTc0MTQ0Mzk5OSwicGF0aCI6Ii83Nzk5MzgyLzQwMDU1NDE4NC02YjZjZmNiZC02YWI1LTQxZDAtYjNlZC1lZThjYTc3MTQxOGYucG5nP1gtQW16LUFsZ29yaXRobT1BV1M0LUhNQUMtU0hBMjU2JlgtQW16LUNyZWRlbnRpYWw9QUtJQVZDT0RZTFNBNTNQUUs0WkElMkYyMDI1MDMwOCUyRnVzLWVhc3QtMSUyRnMzJTJGYXdzNF9yZXF1ZXN0JlgtQW16LURhdGU9MjAyNTAzMDhUMTQyNjM5WiZYLUFtei1FeHBpcmVzPTMwMCZYLUFtei1TaWduYXR1cmU9NWNlMGY3ZTFhMjAwMDcyODYzYzc4ZjdmZTYzOThmYWNlYTFmNWY3NGY3MjIyMTBhODgzYzk1NTZmMjlhNmE3MyZYLUFtei1TaWduZWRIZWFkZXJzPWhvc3QifQ.jo2njKRj5c5B3t5Kzm7MhoV00QT1114VuKMwDCRL2c8)](https://private-user-images.githubusercontent.com/7799382/400554184-6b6cfcbd-6ab5-41d0-b3ed-ee8ca771418f.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NDE0NDQyOTksIm5iZiI6MTc0MTQ0Mzk5OSwicGF0aCI6Ii83Nzk5MzgyLzQwMDU1NDE4NC02YjZjZmNiZC02YWI1LTQxZDAtYjNlZC1lZThjYTc3MTQxOGYucG5nP1gtQW16LUFsZ29yaXRobT1BV1M0LUhNQUMtU0hBMjU2JlgtQW16LUNyZWRlbnRpYWw9QUtJQVZDT0RZTFNBNTNQUUs0WkElMkYyMDI1MDMwOCUyRnVzLWVhc3QtMSUyRnMzJTJGYXdzNF9yZXF1ZXN0JlgtQW16LURhdGU9MjAyNTAzMDhUMTQyNjM5WiZYLUFtei1FeHBpcmVzPTMwMCZYLUFtei1TaWduYXR1cmU9NWNlMGY3ZTFhMjAwMDcyODYzYzc4ZjdmZTYzOThmYWNlYTFmNWY3NGY3MjIyMTBhODgzYzk1NTZmMjlhNmE3MyZYLUFtei1TaWduZWRIZWFkZXJzPWhvc3QifQ.jo2njKRj5c5B3t5Kzm7MhoV00QT1114VuKMwDCRL2c8)
+Assets 2
+Loading
+👍 12 firengate, RajaSunrise, hipotures, florian-kalisch, dangbui03, bitsnaps, Darknet-code, laziobird, mikeplavsky, Felitendo, and 2 more reacted with thumbs up emoji 🎉 12 aosan, madwiki, Alihkhawaher, MaksimZinovev, MyWay, CleverGnd1, limitlessent, firengate, RajaSunrise, nicolas-meunier-97, and 2 more reacted with hooray emoji ❤️ 19 ajmcclary, malore350, kticoder, fev4, venciallee, ksysoev, VikalpP, Alihkhawaher, charasman, dorukyy, and 9 more reacted with heart emoji 🚀 10 rileyseaburg, gh640, kticoder, VikalpP, Alihkhawaher, philfung, firengate, RajaSunrise, Felitendo, and mabras reacted with rocket emoji
+All reactions
+  * 👍 12 reactions
+  * 🎉 12 reactions
+  * ❤️ 19 reactions
+  * 🚀 10 reactions
+
+
+36 people reacted
+## v3.0.0
+18 Dec 22:31 
+![@saoudrizwan](https://avatars.githubusercontent.com/u/7799382?s=40&v=4) [saoudrizwan](https://github.com/saoudrizwan)
+[ v3.0.0  ](https://github.com/cline/cline/tree/v3.0.0)
+[ `7fa399c`](https://github.com/cline/cline/commit/7fa399c6af3995c1628f0240de894dedb84b9053)
+Compare
+Choose a tag to compare
+Could not load tags
+Nothing to show
+[ {{ refName }} default ](https://github.com/cline/cline/compare/{{ urlEncodedRefName }}...v3.0.0)
+Loading
+[View all tags](https://github.com/cline/cline/tags)
+[v3.0.0](https://github.com/cline/cline/releases/tag/v3.0.0)
+### Auto-approve
+Cline's most requested feature is here 🎉 You can now let Cline work more autonomously with the new Auto-approve menu, letting you choose what tools he can use without needing your permission.
+[![image](https://private-user-images.githubusercontent.com/7799382/397092725-c2cc2e06-abd6-4835-8bdf-0b05283ed7c0.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NDE0NDQyOTksIm5iZiI6MTc0MTQ0Mzk5OSwicGF0aCI6Ii83Nzk5MzgyLzM5NzA5MjcyNS1jMmNjMmUwNi1hYmQ2LTQ4MzUtOGJkZi0wYjA1MjgzZWQ3YzAucG5nP1gtQW16LUFsZ29yaXRobT1BV1M0LUhNQUMtU0hBMjU2JlgtQW16LUNyZWRlbnRpYWw9QUtJQVZDT0RZTFNBNTNQUUs0WkElMkYyMDI1MDMwOCUyRnVzLWVhc3QtMSUyRnMzJTJGYXdzNF9yZXF1ZXN0JlgtQW16LURhdGU9MjAyNTAzMDhUMTQyNjM5WiZYLUFtei1FeHBpcmVzPTMwMCZYLUFtei1TaWduYXR1cmU9MTE2MzFmNTI2ZGQ4ZGRlZTNhMzJmMDgxY2U2YjliYzNjMTMxYmE5YTQwMDUwMWE5NjA5MjkyODc4NWY1MWNlMyZYLUFtei1TaWduZWRIZWFkZXJzPWhvc3QifQ.HK7zFOKGvPKoA3JBG-zaOsRFcDN7Tdhp1sLIE0RsFQg)](https://private-user-images.githubusercontent.com/7799382/397092725-c2cc2e06-abd6-4835-8bdf-0b05283ed7c0.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NDE0NDQyOTksIm5iZiI6MTc0MTQ0Mzk5OSwicGF0aCI6Ii83Nzk5MzgyLzM5NzA5MjcyNS1jMmNjMmUwNi1hYmQ2LTQ4MzUtOGJkZi0wYjA1MjgzZWQ3YzAucG5nP1gtQW16LUFsZ29yaXRobT1BV1M0LUhNQUMtU0hBMjU2JlgtQW16LUNyZWRlbnRpYWw9QUtJQVZDT0RZTFNBNTNQUUs0WkElMkYyMDI1MDMwOCUyRnVzLWVhc3QtMSUyRnMzJTJGYXdzNF9yZXF1ZXN0JlgtQW16LURhdGU9MjAyNTAzMDhUMTQyNjM5WiZYLUFtei1FeHBpcmVzPTMwMCZYLUFtei1TaWduYXR1cmU9MTE2MzFmNTI2ZGQ4ZGRlZTNhMzJmMDgxY2U2YjliYzNjMTMxYmE5YTQwMDUwMWE5NjA5MjkyODc4NWY1MWNlMyZYLUFtei1TaWduZWRIZWFkZXJzPWhvc3QifQ.HK7zFOKGvPKoA3JBG-zaOsRFcDN7Tdhp1sLIE0RsFQg)
+  * Enable or disable for: reading files & directories, editing files, executing terminal commands, using the browser, and using MCP servers.
+  * Set a limit for how many API requests Cline makes before asking for your approval to keep going.
+  * And if you have Cline working in the background, he can send system notifications for when he needs your attention, i.e. to get your approval, answer a question, or when a task is completed.
+
+
+[![image](https://private-user-images.githubusercontent.com/7799382/397093380-2195f04a-ae37-4dea-a81d-cf9dac5f92a6.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NDE0NDQyOTksIm5iZiI6MTc0MTQ0Mzk5OSwicGF0aCI6Ii83Nzk5MzgyLzM5NzA5MzM4MC0yMTk1ZjA0YS1hZTM3LTRkZWEtYTgxZC1jZjlkYWM1ZjkyYTYucG5nP1gtQW16LUFsZ29yaXRobT1BV1M0LUhNQUMtU0hBMjU2JlgtQW16LUNyZWRlbnRpYWw9QUtJQVZDT0RZTFNBNTNQUUs0WkElMkYyMDI1MDMwOCUyRnVzLWVhc3QtMSUyRnMzJTJGYXdzNF9yZXF1ZXN0JlgtQW16LURhdGU9MjAyNTAzMDhUMTQyNjM5WiZYLUFtei1FeHBpcmVzPTMwMCZYLUFtei1TaWduYXR1cmU9YjZlZTcxNjllMjdiY2YwY2I5ODljMTdlNmE5Y2RjNDNhNjhlZmI3ZjliODdjMWM0NDIxOWE2MjUwMDBhNWMzYSZYLUFtei1TaWduZWRIZWFkZXJzPWhvc3QifQ.aWunRkNl0F8k1wfHGGQn31Y4EPHYCpdL6I5fRksNYOE)](https://private-user-images.githubusercontent.com/7799382/397093380-2195f04a-ae37-4dea-a81d-cf9dac5f92a6.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NDE0NDQyOTksIm5iZiI6MTc0MTQ0Mzk5OSwicGF0aCI6Ii83Nzk5MzgyLzM5NzA5MzM4MC0yMTk1ZjA0YS1hZTM3LTRkZWEtYTgxZC1jZjlkYWM1ZjkyYTYucG5nP1gtQW16LUFsZ29yaXRobT1BV1M0LUhNQUMtU0hBMjU2JlgtQW16LUNyZWRlbnRpYWw9QUtJQVZDT0RZTFNBNTNQUUs0WkElMkYyMDI1MDMwOCUyRnVzLWVhc3QtMSUyRnMzJTJGYXdzNF9yZXF1ZXN0JlgtQW16LURhdGU9MjAyNTAzMDhUMTQyNjM5WiZYLUFtei1FeHBpcmVzPTMwMCZYLUFtei1TaWduYXR1cmU9YjZlZTcxNjllMjdiY2YwY2I5ODljMTdlNmE5Y2RjNDNhNjhlZmI3ZjliODdjMWM0NDIxOWE2MjUwMDBhNWMzYSZYLUFtei1TaWduZWRIZWFkZXJzPWhvc3QifQ.aWunRkNl0F8k1wfHGGQn31Y4EPHYCpdL6I5fRksNYOE)
+### Diff editing for large files
+When Cline needs to make targeted edits to large files, he now uses a search & replace diff format where he only has to output the content to replace, rather than the whole file. This allows for faster, more reliable edits and prevents code deletion issues where previously, unmodified sections of code might have been replaced with comments like `// rest of code here`. Cline can also fall back to whole file editing for when it makes sense, e.g. replacing boilerplate files, complete refactors, or when diff editing fails.
+### `.clinerules`
+You can now specify custom instructions for your project by adding a root-level `.clinerules` file. This allows you to define project-specific behaviors and guidelines for Cline–perfect for setting conventions, pointing to important documentation, or providing context about your project's architecture.
+Assets 2
+Loading
+👍 27 rubslopes, vratclarkson, delano, lukejanicke, jgenerali, korm85, badlovv, JoyousJohn, edgarasx, astundzia, and 17 more reacted with thumbs up emoji 🎉 40 kesuskim, gh640, ColumbusAI, Alihkhawaher, pietz, JudeJeremy, shiyi-jiaqiu, drwbns, zxzinn, dnlsandiego, and 30 more reacted with hooray emoji ❤️ 26 gh640, Alihkhawaher, pietz, JudeJeremy, grade1000, drwbns, zxzinn, dnlsandiego, apoorvagnihotri, rafaelcaricio, and 16 more reacted with heart emoji 🚀 18 kesuskim, Alihkhawaher, pietz, JudeJeremy, drwbns, zxzinn, dnlsandiego, gh640, justinwoods, vratclarkson, and 8 more reacted with rocket emoji
+All reactions
+  * 👍 27 reactions
+  * 🎉 40 reactions
+  * ❤️ 26 reactions
+  * 🚀 18 reactions
+
+
+66 people reacted
+Previous _1_ [2](https://github.com/cline/cline/releases?page=2) [3](https://github.com/cline/cline/releases?page=3) [4](https://github.com/cline/cline/releases?page=4) [5](https://github.com/cline/cline/releases?page=5) [6](https://github.com/cline/cline/releases?page=6) [Next](https://github.com/cline/cline/releases?page=2)
+Previous [Next](https://github.com/cline/cline/releases?page=2)
+## Footer
+[ ](https://github.com "GitHub") © 2025 GitHub, Inc. 
+### Footer navigation
+  * [Terms](https://docs.github.com/site-policy/github-terms/github-terms-of-service)
+  * [Privacy](https://docs.github.com/site-policy/privacy-policies/github-privacy-statement)
+  * [Security](https://github.com/security)
+  * [Status](https://www.githubstatus.com/)
+  * [Docs](https://docs.github.com/)
+  * [Contact](https://support.github.com?tags=dotcom-footer)
+  * Manage cookies 
+  * Do not share my personal information 
+
+
+You can’t perform that action at this time. 
