@@ -2,6 +2,7 @@ from crewai import Agent
 from typing import List, Dict
 from crawl4ai import AsyncWebCrawler, CrawlerRunConfig, CacheMode, BrowserConfig
 import os
+import hashlib
 import base64
 from PIL import Image
 from src.utils.logging_config import setup_logging, get_logger
@@ -12,6 +13,44 @@ setup_logging()
 logger = get_logger('ContentScraper')
 
 class ContentScraperAgent:
+    def _load_article_content(self, url: str) -> Dict:
+        """
+        Load previously scraped article content from disk
+        
+        Args:
+            url (str): URL of the article to load
+            
+        Returns:
+            Dict: Article data including content and metadata
+        """
+        link_hash = hashlib.sha256(url.encode('utf-8')).hexdigest()[:16]
+        content_path = os.path.join(self.content_dir, f"{link_hash}_content.txt")
+        metadata_path = os.path.join(self.content_dir, f"{link_hash}_info.txt")
+        screenshot_path = os.path.join(self.content_dir, f"{link_hash}.png")
+        
+        article_data = {'url': url}
+        
+        # Load content
+        if os.path.exists(content_path):
+            with open(content_path, 'r', encoding='utf-8') as f:
+                content = f.read().split('-' * 50 + '\n\n')
+                if len(content) > 1:
+                    article_data['content'] = content[1]
+        
+        # Load metadata
+        if os.path.exists(metadata_path):
+            with open(metadata_path, 'r', encoding='utf-8') as f:
+                for line in f:
+                    if line.startswith('Title: '):
+                        article_data['title'] = line.replace('Title: ', '').strip()
+                        break
+        
+        # Add screenshot path if it exists
+        if os.path.exists(screenshot_path):
+            article_data['screenshot_path'] = screenshot_path
+            
+        return article_data
+
     def __init__(self):
         self.agent = Agent(
             role='Content Scraper',
@@ -69,7 +108,36 @@ class ContentScraperAgent:
         async with self.crawler as crawler:
             for link in links:
                 try:
-                    logger.info(f"📥 Scraping URL: {link['url']}")
+                    current_idx = links.index(link) + 1
+                    link_hash = hashlib.sha256(link['url'].encode('utf-8')).hexdigest()[:16]
+                    content_path = os.path.join(self.content_dir, f"{link_hash}_content.txt")
+                    metadata_path = os.path.join(self.content_dir, f"{link_hash}_info.txt")
+                    error_path = os.path.join(self.content_dir, f"{link_hash}_error.txt")
+                    
+                    # Check if content already exists and was successful (no error file)
+                    content_exists = os.path.exists(content_path)
+                    metadata_exists = os.path.exists(metadata_path)
+                    error_exists = os.path.exists(error_path)
+                    
+                    logger.debug(f"[{current_idx}/{len(links)}] Content exists: {content_exists}, Metadata exists: {metadata_exists}, Error exists: {error_exists}")
+                    
+                    if content_exists and metadata_exists and not error_exists:
+                        # Verify content file is not empty
+                        with open(content_path, 'r', encoding='utf-8') as f:
+                            content = f.read()
+                            if len(content.strip()) > 0:
+                                logger.info(f"[{current_idx}/{len(links)}] ⏩ Skipping URL (already scraped): {link['url']}")
+                                # Load existing data
+                                article_data = self._load_article_content(link['url'])
+                                if article_data.get('content'):
+                                    results.append(article_data)
+                                continue
+                            else:
+                                logger.info(f"[{current_idx}/{len(links)}] 🔄 Re-scraping URL (empty content file): {link['url']}")
+                    elif error_exists:
+                        logger.info(f"[{current_idx}/{len(links)}] 🔄 Retrying previously failed URL: {link['url']}")
+                    
+                    logger.info(f"[{current_idx}/{len(links)}] 📥 Scraping URL: {link['url']}")
                     
                     # Create config with headers and CORS handling
                     config = CrawlerRunConfig(
@@ -99,9 +167,7 @@ class ContentScraperAgent:
                 
                     # Create content files
                     os.makedirs(self.content_dir, exist_ok=True)
-                    link_hash = str(hash(link['url']))
-                    content_path = os.path.join(self.content_dir, f"{link_hash}_content.txt")
-                    logger.debug(f"📝 Saving content to {content_path}")
+                    logger.debug(f"[{current_idx}/{len(links)}] 📝 Saving content to {content_path}")
                     with open(content_path, 'w', encoding='utf-8') as f:
                         f.write(f"URL: {link['url']}\n")
                         f.write(f"Title: {link.get('title', 'No title')}\n")
@@ -112,7 +178,7 @@ class ContentScraperAgent:
                     screenshot = result.screenshot if hasattr(result, 'screenshot') else None
                     if screenshot:
                         screenshot_path = os.path.join(self.content_dir, f"{link_hash}.png")
-                        logger.debug(f"📸 Processing screenshot for {link['url']}")
+                        logger.debug(f"[{current_idx}/{len(links)}] 📸 Processing screenshot for {link['url']}")
                         
                         # Convert to bytes if needed
                         screenshot_bytes = (
@@ -126,7 +192,7 @@ class ContentScraperAgent:
                             f.write(screenshot_bytes)
                         
                         # Process with PIL
-                        logger.debug("✂️ Cropping screenshot to 16:9 ratio")
+                        logger.debug(f"[{current_idx}/{len(links)}] ✂️ Cropping screenshot to 16:9 ratio")
                         with Image.open(temp_path) as img:
                             # Calculate dimensions for 16:9 aspect ratio
                             target_width = 1920
@@ -151,12 +217,12 @@ class ContentScraperAgent:
                         
                         # Clean up temp file
                         os.remove(temp_path)
-                        logger.debug(f"📸 Screenshot saved as {target_width}x{target_height} PNG")
+                        logger.debug(f"[{current_idx}/{len(links)}] 📸 Screenshot saved as {target_width}x{target_height} PNG")
                     else:
-                        logger.warning("⚠️ No screenshot available for this URL")
+                        logger.warning(f"[{current_idx}/{len(links)}] ⚠️ No screenshot available for this URL")
                         screenshot_path = None
                     
-                    logger.debug(f"🔄 Updating link info with scraped data")
+                    logger.debug(f"[{current_idx}/{len(links)}] 🔄 Updating link info with scraped data")
                     # Add scraped data to link info
                     link.update({
                         'content': result.markdown.raw_markdown,
@@ -165,27 +231,40 @@ class ContentScraperAgent:
                     })
                     results.append(link)
 
+                    # Remove any previous error file if it exists
+                    if os.path.exists(error_path):
+                        os.remove(error_path)
+
                     # Save metadata file
                     metadata_path = os.path.join(self.content_dir, f"{link_hash}_info.txt")
-                    logger.debug(f"📋 Saving metadata to {metadata_path}")
+                    logger.debug(f"[{current_idx}/{len(links)}] 📋 Saving metadata to {metadata_path}")
                     with open(metadata_path, 'w', encoding='utf-8') as f:
                         f.write("Scraping Result Info:\n")
                         f.write(f"URL: {link['url']}\n")
                         f.write(f"Title: {link['title']}\n")
                         f.write(f"Title from link: {link.get('title', 'No title')}\n")
-                        f.write(f"Screenshot Path: {screenshot_path}\n")
+                        screenshot_file = os.path.join(self.content_dir, f"{link_hash}.png")
+                        f.write(f"Screenshot Path: {screenshot_file if os.path.exists(screenshot_file) else 'None'}\n")
                         f.write(f"Content Path: {content_path}\n")
                         f.write(f"Success: True\n")
                     
                 except Exception as e:
+                    current_idx = links.index(link) + 1
                     error_msg = f"Error scraping {link['url']}: {str(e)}"
-                    logger.error(f"❌ {error_msg}", exc_info=True)
+                    logger.error(f"[{current_idx}/{len(links)}] ❌ {error_msg}", exc_info=True)
                     
                     # Save error info
                     os.makedirs(self.content_dir, exist_ok=True)
-                    link_hash = str(hash(link['url']))
+                    link_hash = hashlib.sha256(link['url'].encode('utf-8')).hexdigest()[:16]
                     error_path = os.path.join(self.content_dir, f"{link_hash}_error.txt")
-                    logger.debug(f"⚠️ Saving error info to {error_path}")
+                    logger.debug(f"[{current_idx}/{len(links)}] ⚠️ Saving error info to {error_path}")
+                    
+                    # Clean up any files from failed attempt
+                    screenshot_path = os.path.join(self.content_dir, f"{link_hash}.png")
+                    for file_path in [content_path, metadata_path, screenshot_path]:
+                        if os.path.exists(file_path):
+                            os.remove(file_path)
+                    
                     with open(error_path, 'w', encoding='utf-8') as f:
                         f.write("Scraping Error Info:\n")
                         f.write(f"URL: {link['url']}\n")
@@ -194,5 +273,9 @@ class ContentScraperAgent:
                         f.write(f"Success: False\n")
                     continue
                 
-        logger.info(f"✅ Completed content scraping. Successfully processed {len(results)} out of {len(links)} links")
+        skipped = sum(1 for link in links 
+                     if os.path.exists(os.path.join(self.content_dir, f"{hashlib.sha256(link['url'].encode('utf-8')).hexdigest()[:16]}_content.txt"))
+                     and os.path.exists(os.path.join(self.content_dir, f"{hashlib.sha256(link['url'].encode('utf-8')).hexdigest()[:16]}_info.txt"))
+                     and not os.path.exists(os.path.join(self.content_dir, f"{hashlib.sha256(link['url'].encode('utf-8')).hexdigest()[:16]}_error.txt")))
+        logger.info(f"✅ Completed content scraping. Successfully processed {len(results)} out of {len(links)} links ({skipped} skipped)")
         return results

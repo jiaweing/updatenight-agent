@@ -14,9 +14,7 @@ I wanted to keep this short, but there was a lot of news to cover this week.
 
 Let's get started.
 
-The Big Picture
-
-=================
+# The Big Picture
 
 We've got a couple of TikTok news here, or rather from ByteDance.
 
@@ -112,9 +110,7 @@ If you’ve got one, let me know!
 
 ](https://substackcdn.com/image/fetch/f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F182c96ab-87d7-42d1-90f6-39fcf9989ba5_1920x959.png)
 
-Under the Radar
-
-=================
+# Under the Radar
 
 ### Bun 1.2
 
@@ -174,9 +170,7 @@ And now you can host them directly through Expo. And the support for it seems pr
 
 [Blog Post](https://expo.dev/blog/expo-announces-eas-hosting-service) | [Twitter Announcement](https://x.com/expo/status/1879185027478794625)
 
-TrAIn of Thought
-
-==================
+# TrAIn of Thought
 
 There's just way too many things going on in the AI space every single week. But not everything is important. There's so much hype from just all the new model launches, benchmarks, and new AI-integrated IDE forks.
 
@@ -570,9 +564,7 @@ This is a really [interesting paper](https://x.com/rohanpaul_ai/status/188018438
 
 ](https://substackcdn.com/image/fetch/f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fb39b0042-2dd1-4eab-93e7-b5fb4de4a4a5_2764x1399.png)
 
-The Grid
-
-==========
+# The Grid
 
 ### shadcn/ui Grid
 
@@ -734,9 +726,7 @@ I came across this really [nice portfolio](https://x.com/muvich3n/status/1881207
 
 ](https://substackcdn.com/image/fetch/f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fa2845dc7-6197-4412-883f-df0273bc79b9_2764x1399.png)
 
-The Spotlight
-
-===============
+# The Spotlight
 
 ### GitHub Wrapped
 

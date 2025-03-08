@@ -18,9 +18,7 @@ Wanna listen to the podcast instead and follow along?
 
 [link]()
 
-The Big Picture
-
-=================
+# The Big Picture
 
 ### DeepSeek Leaks
 
@@ -74,9 +72,7 @@ A post shared by [@theapplehub](https://instagram.com/theapplehub)
 
 So Devin just dropped 1.2 with enhanced reasoning, but is there any reason to use Devin for $500/mo if there are tools like Cline, Cursor and WindSurf that can do the same for a lot cheaper?
 
-Under the Radar
-
-=================
+# Under the Radar
 
 ### Warp Windows
 
@@ -200,9 +196,7 @@ I’ve heard many nightmares on hosting with Supabase. It’s a good platform fo
 
 Even if you are on the paid tier on the hosted platform, many users have complained issues of unresolved support issues causing downtime for their product, with nothing else they can do about.
 
-TrAIn of Thought
-
-==================
+# TrAIn of Thought
 
 ### Deep Research
 
@@ -424,9 +418,7 @@ If you trust LLMs enough to give them access to your database, [Chat2DB](https:/
 
 ](https://substackcdn.com/image/fetch/f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F23ae0317-0813-4e7a-ae4a-18c8f95bb030_2764x1443.png)
 
-The Grid
-
-==========
+# The Grid
 
 ### Kanban UI
 
@@ -522,9 +514,7 @@ If you wanted more blocks from shadcn/ui, [here’s a lot more](https://shadcn-u
 
 ](https://substackcdn.com/image/fetch/f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ff5d39368-d52d-4397-9a63-6db94bbdff09_2764x1443.png)
 
-The Spotlight
-
-===============
+# The Spotlight
 
 ### Zip.js
 

@@ -102,12 +102,12 @@ class DiscordCollectorAgent:
                 
                 # Process each text channel that isn't excluded
                 for channel in guild.text_channels:
-                    logger.info(f"👀 Checking channel: {channel.name}")
+                    logger.info(f"👀 Checking channel: #{channel.name}")
                     if not self._should_process_channel(channel):
-                        logger.debug(f"⏩ Skipping excluded channel: {channel.name}")
+                        logger.debug(f"⏩ Skipping excluded channel: #{channel.name}")
                         continue
                         
-                    logger.info(f"📢 Processing channel: {channel.name}")
+                    logger.info(f"📢 Processing channel: #{channel.name}")
                     async for message in channel.history(after=since_date, limit=None):
                         # Extract links from message
                         found_links = re.findall(r'https?://\S+', message.content)

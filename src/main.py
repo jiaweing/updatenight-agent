@@ -54,8 +54,10 @@ class UpdateNightCrew:
             
             # Step 3: Generate newsletter
             print("✍️ Writing newsletter...")
+            # Extract just the URLs from articles
+            urls = [article['url'] for article in articles]
             newsletter_path = self.content_writer.create_newsletter(
-                articles,
+                urls,
                 output_file
             )
             

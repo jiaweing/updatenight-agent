@@ -41,6 +41,7 @@ class LinkCollectorAgent:
         soup = BeautifulSoup(html, 'html.parser')
         
         links = []
+        seen_urls = set()
         for link in soup.find_all('a'):
             # Get the containing list item for context
             list_item = link.find_parent('li')
@@ -57,15 +58,23 @@ class LinkCollectorAgent:
                     except:
                         context = list_text.strip('- ')
                 
+                # Skip duplicate URLs
+                if url in seen_urls:
+                    logger.debug(f"⏩ Skipping duplicate URL: {url}")
+                    continue
+                    
                 link_data = {
                     'url': url,
                     'title': title,
                     'context': context
                 }
                 links.append(link_data)
+                seen_urls.add(url)
         
         # Log extracted links
-        logger.info(f"\n🔍 Extracted {len(links)} links from {file_path}:")
+        total_found = len(seen_urls)
+        skipped = len(soup.find_all('a')) - total_found
+        logger.info(f"\n🔍 Extracted {total_found} unique links from {file_path} ({skipped} duplicates filtered)")
         for idx, link in enumerate(links, 1):
             logger.info(f"\n📌 Link #{idx}")
             logger.info(f"  • URL: {link['url']}")
