@@ -2,8 +2,6 @@
 
 ### Let's talk Deepseek, $20 Devin, zip files in the browser and some really cool hidden projects.
 
-Feb 10, 2025
-
 It’s already our second week?!
 
 Welcome back to Update Night, tonight we have a big list of things to cover.

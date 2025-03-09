@@ -2,8 +2,6 @@
 
 ### What a world we live in.
 
-Jan 24, 2025
-
 Welcome to the very first issue of this series.
 
 Here is your weekly roundup of the news from last week.

@@ -140,24 +140,52 @@ class ContentScraperAgent:
                     logger.info(f"[{current_idx}/{len(links)}] 📥 Scraping URL: {link['url']}")
                     
                     # Create config with headers and CORS handling
-                    config = CrawlerRunConfig(
-                        screenshot=True,
-                        screenshot_wait_for=3.0,  # Time for magic features to execute
-                        magic=True,
-                        simulate_user=True,
-                        override_navigator=True,
-                        cache_mode=CacheMode.BYPASS,
-                        page_timeout=30000,
-                        delay_before_return_html=1.0,  # Reduced since we handle delays in JS
-                        js_code="""
-                            new Promise(resolve => {
-                                setTimeout(() => {
-                                    window.scrollTo(0, 0);
-                                    setTimeout(resolve, 500);
-                                }, 2000);
-                            })
-                        """
-                    )
+                    # Special handling for GitHub repository URLs
+                    if 'github.com' in link['url']:
+                        config = CrawlerRunConfig(
+                            screenshot=True,
+                            screenshot_wait_for=6.0,  # Increased wait time for GitHub
+                            magic=True,
+                            simulate_user=True,
+                            override_navigator=True,
+                            cache_mode=CacheMode.BYPASS,
+                            page_timeout=45000,  # Increased timeout for GitHub
+                            delay_before_return_html=2.0,
+                            js_code="""
+                                new Promise(resolve => {
+                                    // Wait for repository content to load
+                                    const checkContent = () => {
+                                        const repoContent = document.querySelector('.repository-content, .markdown-body');
+                                        if (repoContent) {
+                                            window.scrollTo(0, 0);
+                                            setTimeout(resolve, 1000);
+                                        } else {
+                                            setTimeout(checkContent, 500);
+                                        }
+                                    };
+                                    setTimeout(checkContent, 3000);
+                                })
+                            """
+                        )
+                    else:
+                        config = CrawlerRunConfig(
+                            screenshot=True,
+                            screenshot_wait_for=3.0,
+                            magic=True,
+                            simulate_user=True,
+                            override_navigator=True,
+                            cache_mode=CacheMode.BYPASS,
+                            page_timeout=30000,
+                            delay_before_return_html=1.0,
+                            js_code="""
+                                new Promise(resolve => {
+                                    setTimeout(() => {
+                                        window.scrollTo(0, 0);
+                                        setTimeout(resolve, 500);
+                                    }, 2000);
+                                })
+                            """
+                        )
                     
                     # Scrape the page with headers passed separately
                     result = await crawler.arun(

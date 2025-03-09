@@ -11,6 +11,10 @@
 - [The Anthropic Economic Index](https://www.anthropic.com/news/the-anthropic-economic-index) - 
 
 ## Under the Radar
+- [Watch?V=K27Dimbcsuw](https://www.youtube.com/watch?v=K27diMbCsuw) - 
+- [Wtf Is Vibe Coding](https://updatenight.com/p/wtf-is-vibe-coding) - 
+- [Watch?V= Qje8Jkivoq](https://www.youtube.com/watch?v=-qjE8JkIVoQ) - 
+- [](https://eieio.games/blog/running-pong-in-240-browser-tabs/) - 
 - [1898041981479059632?S=12&T=Pzzsds1H1Ghmnr2Uon_Vvg](https://x.com/jaredpalmer/status/1898041981479059632?s=12&t=pZzSds1H1gHmNR2uoN_Vvg) - 
 - [Watch?V=Iachfkmzmr8](https://www.youtube.com/watch?v=IACHfKmZMr8) - 
 - [Watch?V=Eibi 92Dips](https://www.youtube.com/watch?v=EiBi-92DIps) - 
