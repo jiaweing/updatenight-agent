@@ -6,7 +6,7 @@ import hashlib
 import base64
 from PIL import Image
 from src.utils.logging_config import setup_logging, get_logger
-from config import Config
+from src.config import Config
 
 # Setup logging
 setup_logging()
@@ -193,6 +193,9 @@ class ContentScraperAgent:
                         config=config,
                     )
                 
+                    if not result or not hasattr(result, 'markdown'):
+                        raise RuntimeError("Failed to get content from URL")
+                        
                     # Create content files
                     os.makedirs(self.content_dir, exist_ok=True)
                     logger.debug(f"[{current_idx}/{len(links)}] 📝 Saving content to {content_path}")
@@ -200,7 +203,7 @@ class ContentScraperAgent:
                         f.write(f"URL: {link['url']}\n")
                         f.write(f"Title: {link.get('title', 'No title')}\n")
                         f.write("-" * 50 + "\n\n")
-                        f.write(result.markdown.raw_markdown)
+                        f.write(result.markdown.raw_markdown if hasattr(result.markdown, 'raw_markdown') else str(result.markdown))
 
                     # Process and save screenshot
                     screenshot = result.screenshot if hasattr(result, 'screenshot') else None
