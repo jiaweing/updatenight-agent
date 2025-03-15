@@ -6,3 +6,4 @@ langchain-openai==0.3.7
 markdown==3.5.2
 discord.py==2.3.2
 pillow==10.4.0
+youtube-transcript-api==1.0.1

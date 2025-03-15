@@ -5,6 +5,8 @@ import os
 import hashlib
 import base64
 from PIL import Image
+from youtube_transcript_api import YouTubeTranscriptApi
+from urllib.parse import urlparse, parse_qs
 from src.utils.logging_config import setup_logging, get_logger
 from src.config import Config
 
@@ -139,9 +141,77 @@ class ContentScraperAgent:
                     
                     logger.info(f"[{current_idx}/{len(links)}] 📥 Scraping URL: {link['url']}")
                     
-                    # Create config with headers and CORS handling
+                    # Setup default config
+                    config = CrawlerRunConfig(
+                        screenshot=True,
+                        screenshot_wait_for=3.0,
+                        magic=True,
+                        simulate_user=True,
+                        override_navigator=True,
+                        cache_mode=CacheMode.BYPASS,
+                        page_timeout=30000,
+                        delay_before_return_html=1.0,
+                        js_code="""
+                            new Promise(resolve => {
+                                setTimeout(() => {
+                                    window.scrollTo(0, 0);
+                                    setTimeout(resolve, 500);
+                                }, 2000);
+                            })
+                        """
+                    )
+
+                    # Handle YouTube URLs
+                    if 'youtube.com' in link['url'] or 'youtu.be' in link['url']:
+                        # Extract video ID
+                        if 'youtube.com' in link['url']:
+                            parsed_url = urlparse(link['url'])
+                            video_id = parse_qs(parsed_url.query).get('v', [None])[0]
+                        else:  # youtu.be
+                            video_id = urlparse(link['url']).path[1:]
+                            
+                        if not video_id:
+                            raise ValueError("Could not extract YouTube video ID")
+                            
+                        # Get transcript
+                        try:
+                            logger.info(f"[{current_idx}/{len(links)}] 🎬 Getting transcript for video ID: {video_id}")
+                            transcript_list = YouTubeTranscriptApi.get_transcript(video_id)
+                            logger.info(f"[{current_idx}/{len(links)}] ✅ Got transcript with {len(transcript_list)} entries")
+                            
+                            # Combine transcript parts into markdown
+                            transcript_text = "\n\n# Video Transcript\n\n"
+                            for entry in transcript_list:
+                                timestamp = int(entry['start'])
+                                minutes = timestamp // 60
+                                seconds = timestamp % 60
+                                transcript_text += f"[{minutes:02d}:{seconds:02d}] {entry['text']}\n"
+                                
+                            # Get page content first
+                            logger.info(f"[{current_idx}/{len(links)}] 🌐 Getting page content")
+                            page_result = await crawler.arun(url=link['url'], config=config)
+                            
+                            # Add transcript to the page content
+                            if hasattr(page_result, 'markdown'):
+                                logger.info(f"[{current_idx}/{len(links)}] 📝 Combining page content with transcript")
+                                page_content = page_result.markdown.raw_markdown if hasattr(page_result.markdown, 'raw_markdown') else str(page_result.markdown)
+                                
+                                # Create a new result object
+                                result = type('obj', (), {})
+                                result.screenshot = page_result.screenshot if hasattr(page_result, 'screenshot') else None
+                                result.markdown = type('obj', (), {})
+                                result.markdown.raw_markdown = f"{page_content}\n\n{transcript_text}"
+                                
+                                logger.debug(f"[{current_idx}/{len(links)}] Combined content length: {len(result.markdown.raw_markdown)}")
+                                logger.info(f"[{current_idx}/{len(links)}] ✨ Successfully combined content")
+                            
+                        except Exception as e:
+                            logger.warning(f"Failed to get YouTube transcript: {str(e)}")
+                            # Fallback to normal page scraping
+                            result = await crawler.arun(url=link['url'], config=config)
+                    
                     # Special handling for GitHub repository URLs
-                    if 'github.com' in link['url']:
+                    elif 'github.com' in link['url']:
                         config = CrawlerRunConfig(
                             screenshot=True,
                             screenshot_wait_for=6.0,  # Increased wait time for GitHub
@@ -167,31 +237,10 @@ class ContentScraperAgent:
                                 })
                             """
                         )
+                        result = await crawler.arun(url=link['url'], config=config)
                     else:
-                        config = CrawlerRunConfig(
-                            screenshot=True,
-                            screenshot_wait_for=3.0,
-                            magic=True,
-                            simulate_user=True,
-                            override_navigator=True,
-                            cache_mode=CacheMode.BYPASS,
-                            page_timeout=30000,
-                            delay_before_return_html=1.0,
-                            js_code="""
-                                new Promise(resolve => {
-                                    setTimeout(() => {
-                                        window.scrollTo(0, 0);
-                                        setTimeout(resolve, 500);
-                                    }, 2000);
-                                })
-                            """
-                        )
-                    
-                    # Scrape the page with headers passed separately
-                    result = await crawler.arun(
-                        url=link['url'],
-                        config=config,
-                    )
+                        # For regular URLs, use default configuration
+                        result = await crawler.arun(url=link['url'], config=config)
                 
                     if not result or not hasattr(result, 'markdown'):
                         raise RuntimeError("Failed to get content from URL")
