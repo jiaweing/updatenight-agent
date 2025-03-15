@@ -151,11 +151,17 @@ Wanna listen to the podcast instead and follow along?
             template="""Write a title and summary with a mandatory embedded link marker:
 
 CRITICAL LINK REQUIREMENTS:
+For regular articles (non-YouTube):
 - You MUST embed exactly one [[LINK_TEXT]] marker in your summary
 - The link text must be a natural part of the sentence
 - NEVER use phrases like "click here", "read more", "check it out", etc.
 - Link text should be 3-7 words that capture the most interesting aspect
 - Place link early in the content (first or second paragraph)
+
+For YouTube videos:
+- Do NOT embed any link markers in the content
+- Do NOT use [[ ]] markers anywhere in the content
+- Just write engaging, natural text without any special markup
 
 Content to summarize:
 {content}
@@ -168,15 +174,18 @@ Format:
    - Balances technical accuracy with accessibility
    - Keeps paragraphs focused (1-3 sentences)
 
-Examples of good link placement:
+Examples for regular articles:
 ✅ [[The new memory model in Rust]] is revolutionizing how we think about systems programming.
 ✅ What started as a small experiment has grown into [[a game-changing approach to neural networks]].
 ✅ Developers are excited about [[these breakthrough improvements in TypeScript 5.4]].
 
-Examples of bad link placement:
+Bad examples for regular articles:
 ❌ Click here to [[learn more about the update]]
 ❌ [[Read the full details]] about this development
 ❌ You can [[explore the documentation here]]
+
+Example for YouTube content:
+✅ This game-changing demo shows how they achieved incredible performance with their innovative approach.
 [rest of summary]"""
         )
         
@@ -227,21 +236,30 @@ Examples:
 2. Write a summary that balances technical depth with accessibility:
 
 CRITICAL LINK REQUIREMENTS:
+For regular articles (non-YouTube):
 - You MUST embed exactly one [[LINK_TEXT]] marker in your summary
 - The link text must be a natural part of the sentence
 - NEVER use phrases like "click here", "read more", "check it out", etc.
 - Link text should be 3-7 words that capture the most interesting aspect
 - Place link early in the content (first or second paragraph)
 
-Examples of good link placement:
+For YouTube videos:
+- Do NOT embed any link markers in the content
+- Do NOT use [[ ]] markers anywhere in the content
+- Just write engaging, natural text without any special markup
+
+Examples for regular articles:
 ✅ [[The new memory model in Rust]] is revolutionizing how we think about systems programming.
 ✅ What started as a small experiment has grown into [[a game-changing approach to neural networks]].
 ✅ Developers are excited about [[these breakthrough improvements in TypeScript 5.4]].
 
-Examples of bad link placement:
+Bad examples for regular articles:
 ❌ Click here to [[learn more about the update]]
 ❌ [[Read the full details]] about this development
 ❌ You can [[explore the documentation here]]
+
+Example for YouTube content:
+✅ This game-changing demo shows how they achieved incredible performance with their innovative approach.
 
 WRITING REQUIREMENTS:
 - Start with an engaging hook that includes the link naturally
