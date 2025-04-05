@@ -1,5 +1,8 @@
 @echo off
-echo Cleaning up logs and output directories...
+
+clear
+
+echo Cleaning up logs and content directories...
 
 :: Remove logs directory
 if exist logs\ (
@@ -7,10 +10,10 @@ if exist logs\ (
     rmdir /s /q logs
 )
 
-:: Remove output directory
-if exist output\ (
-    echo Removing output directory...
-    rmdir /s /q output
+:: Remove content directory
+if exist content\ (
+    echo Removing content directory...
+    rmdir /s /q content
 )
 
 :: Remove links.md
@@ -22,5 +25,5 @@ if exist links.md (
 echo.
 echo Cleanup complete!
 echo - Removed logs directory
-echo - Removed output directory
+echo - Removed content directory
 echo. 

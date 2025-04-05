@@ -33,6 +33,7 @@ output/
 *.jpg
 *.jpeg
 links.md
+report.md
 
 # IDE
 .idea/

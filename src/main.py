@@ -48,6 +48,14 @@ class UpdateNightCrew:
             print("📚 Collecting links...")
             links = self.link_collector.collect_links(links_file)
             
+            # Pause for user confirmation
+            print("\n🔍 links.md has been generated. Please review and reorder categories if needed.")
+            print("Press 'Y' to continue when ready...")
+            user_input = input().strip().upper()
+            if user_input != 'Y':
+                print("❌ Process cancelled by user")
+                return
+            
             # Step 2: Scrape content
             print("🌐 Scraping content and taking screenshots...")
             articles = await self.content_scraper.scrape_content(links)

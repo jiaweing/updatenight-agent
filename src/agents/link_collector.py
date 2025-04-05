@@ -41,27 +41,39 @@ class LinkCollectorAgent:
         soup = BeautifulSoup(html, 'html.parser')
         
         links = []
-        seen_urls = set()
+        seen_urls = {}  # Use dict to store normalized URLs and their original form
+
+        # Process all links in the order they appear
         for link in soup.find_all('a'):
-            # Get the containing list item for context
+            url = link.get('href', '')
+            if not url:
+                logger.debug(f"⏩ Skipping empty URL")
+                continue
+                
+            # Normalize URL for comparison (convert to lowercase)
+            normalized_url = url.lower()
+            
+            # Skip duplicates based on normalized URL only
+            if normalized_url in seen_urls:
+                logger.debug(f"⏩ Skipping duplicate URL: {url}")
+                continue
+
+            # Store normalized URL after checking for duplicates
+            seen_urls[normalized_url] = True
+            
+            # Extract title and context if link is in a list item
+            title = link.get_text().strip()
+            context = ""
             list_item = link.find_parent('li')
             if list_item:
-                # Extract URL, title, and surrounding text
-                url = link.get('href', '')
-                title = link.get_text()
-                # Get text after the link in the list item
-                context = ""
-                if title:  # Only try to split if title is not empty
+                if title:
                     list_text = list_item.get_text()
                     try:
                         context = list_text.split(title)[-1].strip('- ')
                     except:
                         context = list_text.strip('- ')
-                
-                # Skip duplicate URLs
-                if url in seen_urls:
-                    logger.debug(f"⏩ Skipping duplicate URL: {url}")
-                    continue
+                else:
+                    context = list_text.strip('- ')
                     
                 link_data = {
                     'url': url,
@@ -69,7 +81,6 @@ class LinkCollectorAgent:
                     'context': context
                 }
                 links.append(link_data)
-                seen_urls.add(url)
         
         # Log extracted links
         total_found = len(seen_urls)

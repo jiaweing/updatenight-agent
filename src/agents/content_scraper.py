@@ -161,8 +161,37 @@ class ContentScraperAgent:
                         """
                     )
 
+                    # Special handling for GitHub repository URLs
+                    if 'github.com' in link['url']:
+                        logger.info(f"[{current_idx}/{len(links)}] 🌐 Handling GitHub URL with redirect blocking")
+                        config = CrawlerRunConfig(
+                            screenshot=True,
+                            screenshot_wait_for=6.0,  # Increased wait time for GitHub
+                            # magic=True,
+                            # simulate_user=True,
+                            override_navigator=True,
+                            cache_mode=CacheMode.BYPASS,
+                            page_timeout=45000,  # Increased timeout for GitHub
+                            delay_before_return_html=2.0,
+                            js_code="""
+                                new Promise(resolve => {
+                                    // Wait for repository content to load
+                                    const checkContent = () => {
+                                        const repoContent = document.querySelector('.repository-content, .markdown-body');
+                                        if (repoContent) {
+                                            window.scrollTo(0, 0);
+                                            setTimeout(resolve, 1000);
+                                        } else {
+                                            setTimeout(checkContent, 500);
+                                        }
+                                    };
+                                    setTimeout(checkContent, 3000);
+                                })
+                            """
+                        )
+                        result = await crawler.arun(url=link['url'], config=config)
                     # Handle YouTube URLs
-                    if 'youtube.com' in link['url'] or 'youtu.be' in link['url']:
+                    elif 'youtube.com' in link['url'] or 'youtu.be' in link['url']:
                         # Extract video ID
                         if 'youtube.com' in link['url']:
                             parsed_url = urlparse(link['url'])
@@ -209,35 +238,6 @@ class ContentScraperAgent:
                             logger.warning(f"Failed to get YouTube transcript: {str(e)}")
                             # Fallback to normal page scraping
                             result = await crawler.arun(url=link['url'], config=config)
-                    
-                    # Special handling for GitHub repository URLs
-                    elif 'github.com' in link['url']:
-                        config = CrawlerRunConfig(
-                            screenshot=True,
-                            screenshot_wait_for=6.0,  # Increased wait time for GitHub
-                            magic=True,
-                            simulate_user=True,
-                            override_navigator=True,
-                            cache_mode=CacheMode.BYPASS,
-                            page_timeout=45000,  # Increased timeout for GitHub
-                            delay_before_return_html=2.0,
-                            js_code="""
-                                new Promise(resolve => {
-                                    // Wait for repository content to load
-                                    const checkContent = () => {
-                                        const repoContent = document.querySelector('.repository-content, .markdown-body');
-                                        if (repoContent) {
-                                            window.scrollTo(0, 0);
-                                            setTimeout(resolve, 1000);
-                                        } else {
-                                            setTimeout(checkContent, 500);
-                                        }
-                                    };
-                                    setTimeout(checkContent, 3000);
-                                })
-                            """
-                        )
-                        result = await crawler.arun(url=link['url'], config=config)
                     else:
                         # For regular URLs, use default configuration
                         result = await crawler.arun(url=link['url'], config=config)

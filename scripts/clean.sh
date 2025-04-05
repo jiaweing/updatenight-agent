@@ -1,6 +1,8 @@
 #!/bin/bash
 
-echo "Cleaning up logs and output directories..."
+clear
+
+echo "Cleaning up logs and content directories..."
 
 # Remove logs directory
 if [ -d "logs" ]; then
@@ -8,10 +10,10 @@ if [ -d "logs" ]; then
     rm -rf logs
 fi
 
-# Remove output directory
-if [ -d "output" ]; then
-    echo "Removing output directory..."
-    rm -rf output
+# Remove content directory
+if [ -d "content" ]; then
+    echo "Removing content directory..."
+    rm -rf content
 fi
 
 # Remove links.md
@@ -23,5 +25,5 @@ fi
 echo
 echo "Cleanup complete!"
 echo "- Removed logs directory"
-echo "- Removed output directory"
+echo "- Removed content directory"
 echo 
