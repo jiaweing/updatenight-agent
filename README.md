@@ -5,6 +5,7 @@ An automated system for generating the Update Night newsletter using AI agents. 
 ## 🚀 Features
 
 - Automated Discord link collection with categorization
+- AI-powered link categorization using Gemini 2.5 Flash
 - Web scraping with screenshots using crawl4ai
 - AI-powered content summarization with writing style matching
 - Markdown output with properly formatted sections and images
@@ -21,6 +22,14 @@ An automated system for generating the Update Night newsletter using AI agents. 
 │   │   ├── link_collector.py     # Processes links.md
 │   │   ├── content_scraper.py    # Web scraping and screenshots
 │   │   └── content_writer.py     # Newsletter generation
+│   ├── scripts/
+│   │   ├── process_url.py        # Process a single URL
+│   │   └── categorize_links.py   # Categorize links using AI
+│   ├── utils/
+│   │   ├── ai_categorizer.py     # AI-based categorization using Gemini
+│   │   ├── link_categorizer.py   # Link categorization utilities
+│   │   ├── logging_config.py     # Logging configuration
+│   │   └── model_provider.py     # AI model provider utilities
 │   ├── config.py                 # Configuration management
 │   └── main.py                   # Main orchestrator
 ├── samples/                      # Writing style examples
@@ -121,9 +130,27 @@ python src/main.py
 
 The generated newsletter will be saved to `output/newsletter.md` along with screenshots of the referenced web pages.
 
+3. Categorize links using AI:
+
+You can use Gemini AI to automatically categorize links in your links.md file:
+
+```bash
+# Categorize links in links.md using AI
+python src/main.py --categorize
+
+# Specify a custom links file
+python src/main.py --categorize --links-file=custom_links.md
+```
+
+When running the normal newsletter generation process, you'll also be prompted if you want to use AI categorization.
+
 ## 🎯 Link Categorization
 
-Links are automatically categorized based on context and keywords:
+Links can be categorized in two ways:
+
+### Keyword-Based Categorization
+
+By default, links from Discord are categorized based on context and keywords:
 
 - **The Big Picture**: Major announcements, launches, breaking news
 - **Under the Radar**: Experimental features, insights, analyses
@@ -131,7 +158,24 @@ Links are automatically categorized based on context and keywords:
 - **The Grid**: Design systems, UI/UX, component libraries
 - **The Spotlight**: Open source projects, tools, resources
 
-You can customize categorization by modifying the keywords in `discord_collector.py`.
+You can customize keyword-based categorization by modifying the keywords in `discord_collector.py`.
+
+### AI-Based Categorization
+
+For more accurate categorization, you can use the Gemini AI model to analyze the content of each link and determine the most appropriate category. This is especially useful for links that don't have clear keywords in their context.
+
+The AI categorization:
+
+- Scrapes the full content of each link
+- Analyzes the content using Gemini 2.5 Flash
+- Assigns each link to the most appropriate category
+- Updates the links.md file with the new categorization
+
+To use AI categorization, run:
+
+```bash
+python src/main.py --categorize
+```
 
 ## 🔧 Configuration
 
@@ -158,7 +202,7 @@ To use Google's Gemini models:
 
 - Set `AI_PROVIDER=gemini` in your `.env` file
 - Configure your `GEMINI_API_KEY`
-- Default model: gemini-2.5-flash
+- Default model: gemini-2.5-flash-preview-04-17
 
 Both providers are used to:
 
