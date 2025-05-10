@@ -6,8 +6,8 @@ from typing import Optional, Dict, Any
 from langchain.prompts import PromptTemplate
 from langchain_openai import ChatOpenAI
 from langchain_google_genai import ChatGoogleGenerativeAI
-from config import Config
-from utils.logging_config import setup_logging, get_logger
+from src.config import Config
+from src.utils.logging_config import setup_logging, get_logger
 
 # Setup logging
 setup_logging()
