@@ -6,7 +6,7 @@ import time
 import urllib.parse
 from langchain.text_splitter import RecursiveCharacterTextSplitter
 from langchain.prompts import PromptTemplate
-from langchain_openai import ChatOpenAI
+from src.utils.model_provider import ModelProvider
 from src.utils.logging_config import setup_logging, get_logger
 
 # Setup logging
@@ -50,7 +50,7 @@ class ContentWriterAgent:
         """Generate engaging title, description and intro based on article content"""
         logger.debug("🎨 Generating newsletter intro")
 
-        llm = ChatOpenAI(model_name="gpt-4o-mini")
+        llm = ModelProvider.get_model()
         prompt = PromptTemplate(
             input_variables=["articles", "style_examples"],
             template="""Write an engaging newsletter intro about these topics:
@@ -192,7 +192,7 @@ Example for YouTube content:
 [rest of summary]"""
         )
 
-        llm = ChatOpenAI(model_name="gpt-4o-mini")
+        llm = ModelProvider.get_model()
         result = llm.invoke(
             prompt.format(content="\n".join(chunks))
         )
@@ -286,9 +286,9 @@ Testing this on our production service cut memory usage by 30% and caught three 
 Return the title on first line, then blank line, then summary with the link marker. Make sure to separate paragraphs with blank lines."""
         )
 
-        logger.debug("🤔 Generating title and summary using OpenAI")
-        # Use OpenAI to generate title and summary
-        llm = ChatOpenAI(model_name="gpt-4o-mini")
+        logger.debug("🤔 Generating title and summary using AI model")
+        # Use AI model to generate title and summary
+        llm = ModelProvider.get_model()
         result = llm.invoke(
             prompt.format(
                 content="\n".join(chunks),

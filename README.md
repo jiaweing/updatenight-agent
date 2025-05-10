@@ -9,7 +9,7 @@ An automated system for generating the Update Night newsletter using AI agents. 
 - AI-powered content summarization with writing style matching
 - Markdown output with properly formatted sections and images
 - Configurable crawler settings for headless mode and timeouts
-- OpenAI GPT integration for intelligent content processing
+- AI model integration (OpenAI GPT or Google Gemini) for intelligent content processing
 
 ## 📁 Project Structure
 
@@ -34,7 +34,7 @@ An automated system for generating the Update Night newsletter using AI agents. 
 ### Prerequisites
 
 - Python 3.11 or higher
-- OpenAI API key
+- AI model API key (OpenAI or Google Gemini)
 - Discord bot token and permissions
 
 ### Installation
@@ -61,7 +61,14 @@ Edit `.env` and configure:
 # Required
 DISCORD_TOKEN=your_discord_bot_token
 DISCORD_GUILD_ID=your_server_id
-OPENAI_API_KEY=your_openai_api_key
+
+# AI Model configuration
+# Choose between 'openai' or 'gemini'
+AI_PROVIDER=openai
+
+# API Keys (only one is required based on your AI_PROVIDER setting)
+OPENAI_API_KEY=your_openai_api_key_here  # Required if AI_PROVIDER=openai
+# GEMINI_API_KEY=your_gemini_api_key_here  # Required if AI_PROVIDER=gemini
 
 # Optional
 COLLECT_SINCE_DATE=2025-02-06  # Default: current date
@@ -104,7 +111,7 @@ TIMEOUT=30                   # Default: 30 (seconds for page load timeout)
      - The Spotlight (open source highlights)
    - Generate links.md with categorized links
    - Scrape content and take screenshots
-   - Generate the final newsletter using OpenAI's GPT models
+   - Generate the final newsletter using AI models (OpenAI or Gemini)
 
 2. Run the newsletter generation:
 
@@ -133,16 +140,32 @@ You can customize categorization by modifying the keywords in `discord_collector
 - `HEADLESS`: Controls whether to run the browser in headless mode (default: true)
 - `TIMEOUT`: Maximum time in seconds to wait for a page to load (default: 30)
 
-### OpenAI Integration
+### AI Model Integration
 
-The agent uses OpenAI's GPT models to:
+The agent supports two AI model providers:
+
+#### OpenAI Integration
+
+To use OpenAI's GPT models:
+
+- Set `AI_PROVIDER=openai` in your `.env` file
+- Configure your `OPENAI_API_KEY`
+- Default model: gpt-4o-mini
+
+#### Gemini Integration
+
+To use Google's Gemini models:
+
+- Set `AI_PROVIDER=gemini` in your `.env` file
+- Configure your `GEMINI_API_KEY`
+- Default model: gemini-2.5-flash
+
+Both providers are used to:
 
 - Analyze and categorize content
 - Generate summaries in the Update Night style
 - Ensure consistent tone and formatting
 - Extract key insights from articles
-
-Make sure to set your `OPENAI_API_KEY` in the `.env` file.
 
 ## 🤝 Contributing
 
