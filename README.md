@@ -24,6 +24,7 @@ An automated system for generating the Update Night newsletter using AI agents. 
 │   │   └── content_writer.py     # Newsletter generation
 │   ├── scripts/
 │   │   ├── process_url.py        # Process a single URL
+│   │   ├── process_text.py       # Process text from a file
 │   │   └── categorize_links.py   # Categorize links using AI
 │   ├── utils/
 │   │   ├── ai_categorizer.py     # AI-based categorization using Gemini
@@ -143,6 +144,32 @@ python src/main.py --categorize --links-file=custom_links.md
 ```
 
 When running the normal newsletter generation process, you'll also be prompted if you want to use AI categorization.
+
+4. Process a single URL:
+
+```bash
+# Process a single URL and generate a report
+python src/scripts/process_url.py https://example.com
+
+# Specify a custom output file
+python src/scripts/process_url.py https://example.com --output custom_report.md
+```
+
+5. Process text from a file:
+
+```bash
+# Process text from text.md and generate a report (URL is used for reference only)
+python src/scripts/process_text.py https://example.com
+
+# Specify a custom input and output file
+python src/scripts/process_text.py https://example.com --input custom_text.md --output custom_report.md
+```
+
+For the text processing script, you need to:
+
+1. Create a text.md file (or specify a custom file with --input)
+2. Paste the content you want to process into the file
+3. Run the script with a reference URL (used for attribution)
 
 ## 🎯 Link Categorization
 

@@ -32,6 +32,7 @@ output/
 *.png
 *.jpg
 *.jpeg
+text.md
 links.md
 report.md
 
